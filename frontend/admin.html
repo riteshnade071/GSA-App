@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpportunityHub — Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#241B36; --soft:#6B5E7D; --line:#E3DCEF; --bg:#F8F6FC; --card:#fff;
+          --brand:#6B21A8; --accent:#9333EA; --good:#F0E5FB; --warn:#F5EDFC; }
+  *{box-sizing:border-box} body{margin:0;font-family:'Work Sans',sans-serif;background:var(--bg);color:var(--ink)}
+  .top{background:var(--brand);color:#fff;padding:14px 20px;display:flex;justify-content:space-between;align-items:center}
+  .top h1{font-size:17px;margin:0} .top a{color:#D8BEEE;font-size:12.5px;text-decoration:underline}
+  .wrap{max-width:920px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:16px}
+  h2{font-size:17px;margin:0 0 4px;color:var(--brand)} .hint{color:var(--soft);font-size:12.5px;margin-bottom:14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+  label{display:block;font-size:12px;font-weight:600;color:var(--soft);margin-bottom:4px}
+  input,select,textarea{width:100%;padding:9px;border:1.5px solid var(--line);border-radius:8px;font-size:13.5px;font-family:inherit}
+  textarea{resize:vertical;min-height:60px}
+  .btn{padding:10px 18px;border:none;border-radius:8px;background:var(--brand);color:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit}
+  .btn-ghost{background:#fff;border:1.5px solid var(--line);color:var(--ink)}
+  .btn-sm{padding:6px 12px;font-size:12px}
+  .msg{font-size:13px;margin-top:8px} .msg.err{color:#A6301E} .msg.ok{color:#1B7A4B}
+  .rule-row{display:grid;grid-template-columns:1.2fr 1fr 1.4fr auto;gap:8px;margin-bottom:8px;align-items:center}
+  .rule-row select,.rule-row input{margin:0}
+  table{width:100%;border-collapse:collapse;margin-top:10px}
+  th{text-align:left;background:var(--brand);color:#fff;font-size:11px;padding:8px 10px;text-transform:uppercase}
+  td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:12.5px;vertical-align:top}
+  .badge{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:10px}
+  .badge.VERIFIED{background:var(--good);color:#6B21A8}
+  .badge.NEEDS_REVIEW{background:#FDE8D8;color:#9A5B1E}
+  .badge.EXPIRED,.badge.ARCHIVED{background:#EDEAF3;color:#6B5E7D}
+  .row{display:flex;gap:8px;flex-wrap:wrap}
+  .section-title{font-weight:700;font-size:12.5px;color:var(--soft);margin:14px 0 8px;text-transform:uppercase;letter-spacing:0.04em}
+</style>
+</head>
+<body>
+<div class="top"><h1>OpportunityHub — Admin</h1><a href="index.html">← Back to app</a></div>
+<div class="wrap">
+
+  <div class="card" id="loginCard">
+    <h2>Admin login</h2>
+    <div class="grid">
+      <div><label>Phone</label><input id="a_phone"/></div>
+      <div><label>Password</label><input id="a_pass" type="password"/></div>
+    </div>
+    <div class="row" style="margin-top:12px"><button class="btn" onclick="doLogin()">Log in</button></div>
+    <div class="msg" id="loginMsg"></div>
+  </div>
+
+  <div id="adminArea" style="display:none">
+
+    <div class="card">
+      <h2 id="formTitle">Add a new opportunity</h2>
+      <div class="hint">Rules banate waqt: field khali chhodna matlab check hi nahi hoga (sabhi ke liye applicable). Sirf jo condition zaroori hai wahi add karo.</div>
+
+      <div class="grid">
+        <div><label>Name *</label><input id="f_name" placeholder="e.g. National Means-cum-Merit Scholarship"/></div>
+        <div><label>Category *</label><select id="f_category"><option value="scholarship">Scholarship</option><option value="govt_benefit">Government Benefit</option><option value="study_abroad">Study Abroad</option></select></div>
+        <div><label>Country</label><input id="f_country" value="IN"/></div>
+        <div><label>State (blank = nationwide)</label><input id="f_state" placeholder="e.g. Maharashtra"/></div>
+        <div><label>State rule applies to</label><select id="f_basis"><option value="domicile">Home state (domicile)</option><option value="institute">College location</option><option value="both">Both</option></select></div>
+        <div><label>Deadline</label><input id="f_deadline" type="date"/></div>
+        <div><label>Verification status</label><select id="f_status"><option value="NEEDS_REVIEW">Needs review</option><option value="VERIFIED">Verified</option><option value="EXPIRED">Expired</option><option value="ARCHIVED">Archived</option></select></div>
+      </div>
+      <div class="grid" style="margin-top:10px">
+        <div style="grid-column:1/-1"><label>Description</label><textarea id="f_desc"></textarea></div>
+        <div style="grid-column:1/-1"><label>Benefits</label><textarea id="f_benefits"></textarea></div>
+        <div style="grid-column:1/-1"><label>Amount — short line shown on the card</label><input id="f_amount" placeholder="e.g. ₹12,000 – ₹20,000 a year"/></div>
+        <div style="grid-column:1/-1"><label>Required documents (comma-separated)</label><input id="f_docs" placeholder="Aadhaar, Income certificate, Marksheet"/></div>
+        <div style="grid-column:1/-1"><label>Application steps — one per line, in order (what to do after clicking Apply)</label><textarea id="f_steps" rows="5" placeholder="Register on the portal with Aadhaar&#10;Fill the application form&#10;Upload documents&#10;Submit and note the application ID"></textarea></div>
+        <div style="grid-column:1/-1"><label>आवेदन के चरण (Hindi) — same order, same number of lines as the English box</label><textarea id="f_steps_hi" rows="5"></textarea></div>
+      </div>
+
+      <div class="section-title">Trust info (shown to students)</div>
+      <div class="grid">
+        <div style="grid-column:1/-1"><label>Official URL *</label><input id="f_url" placeholder="https://scholarships.gov.in/..."/></div>
+        <div><label>Source organization</label><input id="f_source" placeholder="e.g. Ministry of Education"/></div>
+      </div>
+
+      <div class="section-title">Eligibility rules</div>
+      <div id="ruleRows"></div>
+      <button class="btn btn-ghost btn-sm" onclick="addRuleRow()">+ Add condition</button>
+
+      <div class="row" style="margin-top:16px">
+        <button class="btn" onclick="saveOpportunity()">Save opportunity</button>
+        <button class="btn btn-ghost" id="cancelEditBtn" style="display:none" onclick="resetForm()">Cancel edit</button>
+        <span class="msg" id="formMsg"></span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>All opportunities</h2>
+      <table>
+        <thead><tr><th>Name</th><th>Category</th><th>Status</th><th>Deadline</th><th>Active</th><th></th></tr></thead>
+        <tbody id="oppRows"><tr><td colspan="6">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+const API = "https://gsa-app.onrender.com";
+let session = JSON.parse(localStorage.getItem("ohub_session") || "null");
+let editingId = null;
+let allOpps = [];
+
+const FIELDS = [
+  ["country","Country"],["state","State"],["age","Age"],["gender","Gender"],
+  ["education_level","Education level"],["marks_percent","Marks %"],["course_stream","Stream"],
+  ["family_income","Family income"],["category","Category (social)"],["is_disabled","Is disabled"],
+];
+const OPERATORS = [
+  ["eq","equals"],["neq","not equals"],["in","is one of (comma list)"],["not_in","is not one of (comma list)"],
+  ["gte","at least (≥)"],["lte","at most (≤)"],["gt","above (>)"],["lt","below (<)"],["is_true","must be true"],
+];
+
+function headers(){ return session ? {"Authorization":"Bearer "+session.access_token} : {}; }
+function jsonHeaders(){ return {"Content-Type":"application/json", ...headers()}; }
+
+async function doLogin(){
+  const msg = document.getElementById("loginMsg"); msg.className="msg"; msg.textContent="";
+  try{
+    const res = await fetch(`${API}/auth/login`,{method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({phone:document.getElementById("a_phone").value.trim(),password:document.getElementById("a_pass").value})});
+    const data = await res.json();
+    if(!res.ok) throw new Error(data.detail || "Login failed");
+    if(!data.is_admin){ msg.textContent="Ye account admin nahi hai."; msg.classList.add("err"); return; }
+    session = data;
+    localStorage.setItem("ohub_session", JSON.stringify(session));
+    enterAdmin();
+  }catch(e){ msg.textContent=e.message; msg.classList.add("err"); }
+}
+
+function enterAdmin(){
+  document.getElementById("loginCard").style.display="none";
+  document.getElementById("adminArea").style.display="block";
+  addRuleRow();
+  loadOpportunities();
+}
+
+function addRuleRow(field, op, val){
+  const wrap = document.getElementById("ruleRows");
+  const row = document.createElement("div");
+  row.className = "rule-row";
+  row.innerHTML = `
+    <select class="rule-field">${FIELDS.map(([v,l])=>`<option value="${v}">${l}</option>`).join("")}</select>
+    <select class="rule-op">${OPERATORS.map(([v,l])=>`<option value="${v}">${l}</option>`).join("")}</select>
+    <input class="rule-val" placeholder="value — e.g. 300000 or 12th,diploma"/>
+    <button class="btn btn-ghost btn-sm" onclick="this.parentElement.remove()">✕</button>
+  `;
+  wrap.appendChild(row);
+  if(field) row.querySelector(".rule-field").value = field;
+  if(op) row.querySelector(".rule-op").value = op;
+  if(val !== undefined) row.querySelector(".rule-val").value = val;
+}
+
+function collectRules(){
+  const rules = {};
+  document.querySelectorAll(".rule-row").forEach(row=>{
+    const field = row.querySelector(".rule-field").value;
+    const op = row.querySelector(".rule-op").value;
+    let val = row.querySelector(".rule-val").value.trim();
+    if(!val) return;
+    if(op === "in" || op === "not_in") val = val.split(",").map(v=>v.trim()).filter(Boolean);
+    else if(op === "is_true") val = true;
+    else if(["gte","lte","gt","lt"].includes(op)) val = Number(val);
+    rules[field] = { ...(rules[field]||{}), [op]: val };
+  });
+  return rules;
+}
+
+function resetForm(){
+  editingId = null;
+  document.getElementById("formTitle").textContent = "Add a new opportunity";
+  document.getElementById("cancelEditBtn").style.display = "none";
+  ["f_name","f_state","f_deadline","f_desc","f_benefits","f_docs","f_steps","f_steps_hi","f_amount","f_url","f_source"].forEach(id=>document.getElementById(id).value="");
+  document.getElementById("f_country").value="IN";
+  document.getElementById("f_category").value="scholarship";
+  document.getElementById("f_status").value="NEEDS_REVIEW";
+  document.getElementById("f_basis").value="domicile";
+  document.getElementById("ruleRows").innerHTML="";
+  addRuleRow();
+}
+
+async function saveOpportunity(){
+  const msg = document.getElementById("formMsg"); msg.className="msg"; msg.textContent="Saving…";
+  const name = document.getElementById("f_name").value.trim();
+  const url = document.getElementById("f_url").value.trim();
+  if(!name || !url){ msg.textContent="Name aur Official URL zaroori hai."; msg.classList.add("err"); return; }
+
+  const deadlineVal = document.getElementById("f_deadline").value;
+  const body = {
+    name, category: document.getElementById("f_category").value,
+    country: document.getElementById("f_country").value || "IN",
+    state: document.getElementById("f_state").value || null,
+    description: document.getElementById("f_desc").value || null,
+    benefits: document.getElementById("f_benefits").value || null,
+    required_documents: document.getElementById("f_docs").value ? document.getElementById("f_docs").value.split(",").map(s=>s.trim()).filter(Boolean) : null,
+    deadline: deadlineVal ? new Date(deadlineVal).toISOString() : null,
+    eligibility_rules: collectRules(),
+    state_basis: document.getElementById("f_basis").value,
+    amount_text: document.getElementById("f_amount").value || null,
+    application_steps: document.getElementById("f_steps").value.split("\n").map(s=>s.trim()).filter(Boolean),
+    application_steps_hi: document.getElementById("f_steps_hi").value.split("\n").map(s=>s.trim()).filter(Boolean),
+    official_url: url,
+    source_organization: document.getElementById("f_source").value || null,
+    verification_status: document.getElementById("f_status").value,
+  };
+
+  try{
+    const url2 = editingId ? `${API}/opportunities/admin/${editingId}` : `${API}/opportunities/admin/add`;
+    const res = await fetch(url2, {method: editingId?"PUT":"POST", headers: jsonHeaders(), body: JSON.stringify(body)});
+    const data = await res.json();
+    if(!res.ok) throw new Error(data.detail || "Save failed");
+    msg.textContent = "Saved ✅"; msg.classList.add("ok");
+    resetForm();
+    loadOpportunities();
+  }catch(e){ msg.textContent=e.message; msg.classList.add("err"); }
+}
+
+async function loadOpportunities(){
+  const tbody = document.getElementById("oppRows");
+  try{
+    const res = await fetch(`${API}/opportunities/admin/list`, {headers: headers()});
+    allOpps = await res.json();
+    if(!allOpps.length){ tbody.innerHTML = `<tr><td colspan="6">Koi opportunity nahi hai abhi — upar form se add karo.</td></tr>`; return; }
+    tbody.innerHTML = allOpps.map(o=>`
+      <tr>
+        <td><b>${esc(o.name)}</b><br><span style="color:var(--soft)">${esc(o.source_organization||"")}</span></td>
+        <td>${esc(o.category)}</td>
+        <td><span class="badge ${o.verification_status}">${esc(o.verification_status)}</span></td>
+        <td>${o.deadline ? new Date(o.deadline).toLocaleDateString("en-IN") : "—"}</td>
+        <td>${o.is_active ? "Yes" : "No"}</td>
+        <td>
+          <button class="btn btn-ghost btn-sm" onclick="editOpp('${o.id}')">Edit</button>
+          <button class="btn btn-ghost btn-sm" onclick="verifyOpp('${o.id}')">Verify</button>
+          <button class="btn btn-ghost btn-sm" onclick="toggleActive('${o.id}')">${o.is_active?"Archive":"Unarchive"}</button>
+        </td>
+      </tr>`).join("");
+  }catch{ tbody.innerHTML = `<tr><td colspan="6">Couldn't load.</td></tr>`; }
+}
+
+function editOpp(id){
+  const o = allOpps.find(x=>x.id===id);
+  if(!o) return;
+  editingId = id;
+  document.getElementById("formTitle").textContent = "Edit opportunity";
+  document.getElementById("cancelEditBtn").style.display = "inline-block";
+  document.getElementById("f_name").value = o.name;
+  document.getElementById("f_category").value = o.category;
+  document.getElementById("f_country").value = o.country || "IN";
+  document.getElementById("f_state").value = o.state || "";
+  document.getElementById("f_basis").value = o.state_basis || "domicile";
+  document.getElementById("f_amount").value = o.amount_text || "";
+  document.getElementById("f_desc").value = o.description || "";
+  document.getElementById("f_benefits").value = o.benefits || "";
+  document.getElementById("f_docs").value = (o.required_documents||[]).join(", ");
+  document.getElementById("f_steps").value = (o.application_steps||[]).join("\n");
+  document.getElementById("f_steps_hi").value = (o.application_steps_hi||[]).join("\n");
+  document.getElementById("f_deadline").value = o.deadline ? o.deadline.slice(0,10) : "";
+  document.getElementById("f_url").value = o.official_url;
+  document.getElementById("f_source").value = o.source_organization || "";
+  document.getElementById("f_status").value = o.verification_status;
+
+  document.getElementById("ruleRows").innerHTML = "";
+  const rules = o.eligibility_rules || {};
+  const entries = Object.entries(rules);
+  if(!entries.length){ addRuleRow(); }
+  entries.forEach(([field, ops])=>{
+    Object.entries(ops).forEach(([op, val])=>{
+      const displayVal = Array.isArray(val) ? val.join(", ") : val;
+      addRuleRow(field, op, displayVal);
+    });
+  });
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+async function verifyOpp(id){
+  await fetch(`${API}/opportunities/admin/${id}/verify`, {method:"POST", headers: headers()});
+  loadOpportunities();
+}
+async function toggleActive(id){
+  await fetch(`${API}/opportunities/admin/${id}/toggle-active`, {method:"POST", headers: headers()});
+  loadOpportunities();
+}
+
+function esc(s){ const d=document.createElement("div"); d.textContent=s==null?"":s; return d.innerHTML; }
+
+if(session) enterAdmin();
+</script>
+</body>
+</html>
