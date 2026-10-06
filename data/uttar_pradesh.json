@@ -1,0 +1,66 @@
+[
+  {
+    "state": "Uttar Pradesh",
+    "state_basis": "domicile",
+    "steps": "up",
+    "deadline": "2026-10-31",
+    "official_url": "https://scholarship.up.gov.in",
+    "source_organization": "Social Welfare Department, Govt of Uttar Pradesh",
+    "benefits": "Scholarship of roughly ₹2,500–₹13,500 a year depending on class and category (per scheme summaries — confirm on the portal).",
+    "amount": "≈ ₹2,500–13,500 a year (varies)",
+    "name": "UP Post-Matric (Dashmottar) Scholarship — SC / ST",
+    "description": "For SC and ST students of Uttar Pradesh in graduation, post-graduation, diploma and other post-matric courses (other than Class 11-12). Family income up to ₹2.5 lakh. Fresh applications close 31 Oct 2026; renewal closed 15 Oct 2026. Class 11-12 (Intermediate) fresh applications already closed on 21 Sep 2026. The document list below may be shorter than the portal's.",
+    "required_documents": [
+      "Caste certificate (SC/ST)",
+      "Income certificate",
+      "Aadhaar card",
+      "Previous year marksheet",
+      "Fee receipt / admission proof",
+      "Aadhaar-linked bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "in": [
+          "sc",
+          "st"
+        ]
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    }
+  },
+  {
+    "state": "Uttar Pradesh",
+    "state_basis": "domicile",
+    "steps": "up",
+    "deadline": "2026-10-31",
+    "official_url": "https://scholarship.up.gov.in",
+    "source_organization": "Social Welfare Department, Govt of Uttar Pradesh",
+    "benefits": "Scholarship of roughly ₹2,500–₹13,500 a year depending on class and category (per scheme summaries — confirm on the portal).",
+    "amount": "≈ ₹2,500–13,500 a year (varies)",
+    "name": "UP Post-Matric (Dashmottar) Scholarship — General / OBC / Minority",
+    "description": "For General, OBC and Minority students of Uttar Pradesh in graduation, post-graduation, diploma and other post-matric courses (other than Class 11-12). Family income up to ₹2 lakh. Fresh applications close 31 Oct 2026; renewal closed 15 Oct 2026. Class 11-12 (Intermediate) fresh applications already closed on 21 Sep 2026. One third-party site lists ₹1 lakh for minority — confirm on the portal. The document list below may be shorter than the portal's.",
+    "required_documents": [
+      "Income certificate",
+      "Caste certificate (OBC) or minority proof where applicable",
+      "Aadhaar card",
+      "Previous year marksheet",
+      "Fee receipt / admission proof",
+      "Aadhaar-linked bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "in": [
+          "general",
+          "obc",
+          "ews",
+          "minority"
+        ]
+      },
+      "family_income": {
+        "lte": 200000
+      }
+    }
+  }
+]
