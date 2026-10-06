@@ -1,0 +1,80 @@
+[
+  {
+    "state": "Tamil Nadu",
+    "state_basis": "domicile",
+    "deadline": null,
+    "official_url": "https://www.tn.gov.in",
+    "source_organization": "Social Welfare and Women Empowerment Department, Govt of Tamil Nadu",
+    "name": "Pudhumai Penn Scheme (Tamil Nadu) — ₹1,000 a month for girls",
+    "steps": "tn_college",
+    "amount": "₹1,000 a month (₹12,000 a year)",
+    "description": "For girl students who studied Class 6 to 12 in a Tamil Nadu government or government-aided school and are now in a regular higher-education course (degree, diploma, ITI, professional). No family-income limit. Distance and correspondence courses are not covered. Apply through your college. No fixed last date was confirmed — ask your college. The document list below may be shorter than the portal's.",
+    "benefits": "₹1,000 every month for the length of the course, paid to your bank account by DBT.",
+    "required_documents": [
+      "School study certificates (Class 6 to 12, TN government / aided school)",
+      "College admission / bonafide certificate",
+      "Aadhaar card",
+      "Aadhaar-linked bank passbook"
+    ],
+    "eligibility_rules": {
+      "gender": {
+        "eq": "female"
+      }
+    }
+  },
+  {
+    "state": "Tamil Nadu",
+    "state_basis": "domicile",
+    "deadline": null,
+    "official_url": "https://www.tn.gov.in",
+    "source_organization": "Social Welfare and Women Empowerment Department, Govt of Tamil Nadu",
+    "name": "Tamil Pudhalvan Scheme (Tamil Nadu) — ₹1,000 a month for boys",
+    "steps": "tn_college",
+    "amount": "₹1,000 a month (₹12,000 a year)",
+    "description": "For boy students who studied Class 6 to 12 in a Tamil Nadu government or government-aided school and are now in a regular higher-education course. No family-income limit. Students from private schools are not eligible. Apply through your college. No fixed last date was confirmed — ask your college. The document list below may be shorter than the portal's.",
+    "benefits": "₹1,000 every month for the length of the course, paid to your bank account by DBT.",
+    "required_documents": [
+      "School study certificates (Class 6 to 12, TN government / aided school)",
+      "College admission / bonafide certificate",
+      "Aadhaar card",
+      "Aadhaar-linked bank passbook"
+    ],
+    "eligibility_rules": {
+      "gender": {
+        "eq": "male"
+      }
+    }
+  },
+  {
+    "name": "Tamil Nadu Post-Matric Scholarship — SC / ST (Adi Dravidar & Tribal Welfare)",
+    "state": "Tamil Nadu",
+    "state_basis": "both",
+    "steps": "tn_escholarship",
+    "deadline": null,
+    "official_url": "https://escholarship.tn.gov.in",
+    "source_organization": "Adi Dravidar and Tribal Welfare Department, Govt of Tamil Nadu",
+    "amount": "Fee reimbursement + maintenance allowance",
+    "description": "For SC, ST, SCC and SCA students who are Tamil Nadu residents, from Class 11 up to PhD in a recognised Tamil Nadu institution. Family income up to ₹2.5 lakh (income certificate from the Tahsildar). Sources disagree on the last date (31 Oct vs 30 Nov 2026) and on whether you apply on the state portal or NSP — confirm both with your college. The document list below may be shorter than the portal's.",
+    "benefits": "Tuition fee reimbursement plus maintenance allowance; hostel allowance for hostellers.",
+    "required_documents": [
+      "Community certificate",
+      "Income certificate (issued by the Tahsildar)",
+      "Aadhaar card",
+      "Previous marksheet",
+      "Bonafide certificate",
+      "Fee receipt",
+      "Bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "in": [
+          "sc",
+          "st"
+        ]
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    }
+  }
+]
