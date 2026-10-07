@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mukhyamantri Yuva Swavalamban Yojana (MYSY) — Gujarat",
+    "state": "Gujarat",
+    "state_basis": "both",
+    "steps": "mysy_gujarat",
+    "deadline": "2026-10-30",
+    "official_url": "https://mysy.gujarat.gov.in",
+    "source_organization": "Education Department, Govt of Gujarat",
+    "amount": "Up to ₹50,000 a year (degree); more for medical",
+    "description": "Merit-cum-means support for students of all categories who are Gujarat residents and have taken admission in a Gujarat diploma or degree course. Family income up to ₹6 lakh. Fresh applicants need 80 percentile (not percentage) in Class 12 Science or General stream for degree courses, or in Class 10 for diploma. The deadline was extended; one report gives 30 Oct 2026, 6 PM, with document verification by 5 Nov — confirm on the portal. The document list below may be shorter than the portal's.",
+    "benefits": "Tuition-fee assistance of up to ₹50,000 a year for degree courses (50% of tuition, whichever is lower) and up to ₹2 lakh for medical, plus hostel and book support in some cases.",
+    "required_documents": [
+      "Marksheet showing 80 percentile (Class 10 or 12)",
+      "Income certificate (Mamlatdar / Talati / TDO)",
+      "Admission proof",
+      "Aadhaar card",
+      "Bank passbook"
+    ],
+    "eligibility_rules": {
+      "family_income": {
+        "lte": 600000
+      }
+    }
+  }
+]
