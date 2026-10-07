@@ -1,0 +1,58 @@
+[
+  {
+    "state": "Karnataka",
+    "state_basis": "both",
+    "steps": "ssp_karnataka",
+    "official_url": "https://ssp.postmatric.karnataka.gov.in",
+    "amount": "Fee reimbursement + maintenance allowance",
+    "benefits": "Full fee reimbursement plus a maintenance allowance for students in the income limit (per scheme summaries — confirm on SSP).",
+    "required_documents": [
+      "Caste certificate",
+      "Income certificate",
+      "Aadhaar card",
+      "Previous marksheet",
+      "Admission / fee receipt",
+      "Aadhaar-linked bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "sc"
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    },
+    "name": "Karnataka Post-Matric Scholarship — SC (Social Welfare Department, SSP)",
+    "deadline": "2027-01-31",
+    "source_organization": "Social Welfare Department, Govt of Karnataka",
+    "description": "For SC students who are Karnataka residents studying in a recognised Karnataka institution (PUC, ITI, diploma, UG, PG, PhD). Family income up to ₹2.5 lakh. Last date reported as 31 Jan 2027. The document list below may be shorter than the portal's."
+  },
+  {
+    "state": "Karnataka",
+    "state_basis": "both",
+    "steps": "ssp_karnataka",
+    "official_url": "https://ssp.postmatric.karnataka.gov.in",
+    "amount": "Fee reimbursement + maintenance allowance",
+    "benefits": "Full fee reimbursement plus a maintenance allowance for students in the income limit (per scheme summaries — confirm on SSP).",
+    "required_documents": [
+      "Caste certificate",
+      "Income certificate",
+      "Aadhaar card",
+      "Previous marksheet",
+      "Admission / fee receipt",
+      "Aadhaar-linked bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "st"
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    },
+    "name": "Karnataka Post-Matric Scholarship — ST (Tribal Welfare Department, SSP)",
+    "deadline": null,
+    "source_organization": "Tribal Welfare Department, Govt of Karnataka",
+    "description": "For ST students who are Karnataka residents studying in a recognised Karnataka institution. Family income up to ₹2.5 lakh. Sources report the last date as anything from 31 Dec 2026 to 31 Jan 2027 — confirm on the portal. The document list below may be shorter than the portal's."
+  }
+]
