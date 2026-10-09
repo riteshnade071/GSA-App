@@ -1,0 +1,62 @@
+[
+  {
+    "state": "Telangana",
+    "state_basis": "both",
+    "steps": "epass_telangana",
+    "deadline": null,
+    "official_url": "https://telanganaepass.cgg.gov.in",
+    "amount": "100% tuition fee + maintenance allowance",
+    "benefits": "Full tuition fee reimbursement (paid to the college) plus a monthly maintenance allowance to your bank account (per scheme summaries — confirm on ePASS).",
+    "source_organization": "Telangana ePASS (SC / ST / BC / Minority Welfare Departments)",
+    "name": "Telangana ePASS Post-Matric Scholarship — SC / ST",
+    "description": "For SC and ST students who are permanent residents of Telangana in a recognised Telangana institution. Family income up to ₹2 lakh (a few sources say ₹2.5 lakh for SC — confirm on the portal). A last date of 31 Oct 2026 was reported by one site only, so it is not shown here. The document list below may be shorter than the portal's.",
+    "required_documents": [
+      "Caste certificate (MeeSeva)",
+      "Income certificate (MeeSeva / MRO, dated on or after 1 Apr 2026)",
+      "Aadhaar card (name must match SSC certificate)",
+      "SSC / previous marksheet",
+      "Bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "in": [
+          "sc",
+          "st"
+        ]
+      },
+      "family_income": {
+        "lte": 200000
+      }
+    }
+  },
+  {
+    "state": "Telangana",
+    "state_basis": "both",
+    "steps": "epass_telangana",
+    "deadline": null,
+    "official_url": "https://telanganaepass.cgg.gov.in",
+    "amount": "100% tuition fee + maintenance allowance",
+    "benefits": "Full tuition fee reimbursement (paid to the college) plus a monthly maintenance allowance to your bank account (per scheme summaries — confirm on ePASS).",
+    "source_organization": "Telangana ePASS (SC / ST / BC / Minority Welfare Departments)",
+    "name": "Telangana ePASS Post-Matric Scholarship — BC / Minority",
+    "description": "For BC and Minority students who are permanent residents of Telangana in a recognised Telangana institution. Family income up to ₹2 lakh in urban areas and ₹1.5 lakh in rural areas (the rural limit is not checked here). Full fee reimbursement applies only in the cases covered by the government orders (for example government junior college or specified EAMCET/ECET ranks). The document list below may be shorter than the portal's.",
+    "required_documents": [
+      "BC / minority certificate (MeeSeva)",
+      "Income certificate (MeeSeva / MRO, dated on or after 1 Apr 2026)",
+      "Aadhaar card (name must match SSC certificate)",
+      "SSC / previous marksheet",
+      "Bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "in": [
+          "obc",
+          "minority"
+        ]
+      },
+      "family_income": {
+        "lte": 200000
+      }
+    }
+  }
+]
