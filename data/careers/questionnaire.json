@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "intro": "Answer a few quick questions. You will get a short list of paths that fit your education, interests, skills and budget, with the next steps for each. These are starting points, not a verdict: always confirm eligibility and dates on the official site.",
+  "questions": [
+    {"id": "stage", "label": "What have you completed, or what are you studying now?", "type": "single", "required": true, "options": [
+      {"value": "after_10th", "label": "10th (SSC or equivalent)"},
+      {"value": "after_12th", "label": "12th (HSC or equivalent)"},
+      {"value": "after_diploma", "label": "Diploma or ITI"},
+      {"value": "after_ug", "label": "Bachelor's degree"},
+      {"value": "after_pg", "label": "Master's degree"}
+    ]},
+    {"id": "stream", "label": "Your stream or field", "type": "single", "required": false, "hide_if": {"stage": ["after_10th"]}, "options": [
+      {"value": "pcm", "label": "Science with Maths (PCM), engineering or technical diploma"},
+      {"value": "pcb", "label": "Science with Biology (PCB), health or life sciences"},
+      {"value": "commerce", "label": "Commerce, business or finance"},
+      {"value": "arts", "label": "Arts, humanities or social sciences"},
+      {"value": "other", "label": "Something else"}
+    ]},
+    {"id": "interests", "label": "What interests you most? (pick up to 3)", "type": "multi", "max": 3, "required": false, "options": [
+      {"value": "technology", "label": "Computers and technology"},
+      {"value": "technical_trades", "label": "Machines, electrical or building work"},
+      {"value": "healthcare", "label": "Health and caring for people"},
+      {"value": "research", "label": "Science and research"},
+      {"value": "business", "label": "Business and starting something of my own"},
+      {"value": "finance", "label": "Money, banking and accounts"},
+      {"value": "creative", "label": "Design, art and creativity"},
+      {"value": "media", "label": "Writing, media and communication"},
+      {"value": "teaching", "label": "Teaching and guiding others"},
+      {"value": "govt_service", "label": "Serving the public through government"},
+      {"value": "law", "label": "Law and justice"},
+      {"value": "defence", "label": "Defence, police and discipline"},
+      {"value": "agri_env", "label": "Farming, food and environment"},
+      {"value": "hospitality", "label": "Travel, hotels and hospitality"}
+    ]},
+    {"id": "skills", "label": "What are you good at? (pick up to 3)", "type": "multi", "max": 3, "required": false, "options": [
+      {"value": "logic", "label": "Maths and logical thinking"},
+      {"value": "computers", "label": "Using computers"},
+      {"value": "hands_on", "label": "Working with my hands"},
+      {"value": "communication", "label": "Speaking and dealing with people"},
+      {"value": "writing", "label": "Writing"},
+      {"value": "creativity", "label": "Creative ideas and drawing"},
+      {"value": "curiosity", "label": "Curiosity about how things work"},
+      {"value": "leadership", "label": "Leading and organising"}
+    ]},
+    {"id": "budget", "label": "What can your family spend on your studies?", "type": "single", "required": true, "options": [
+      {"value": "low", "label": "As little as possible: government colleges, scholarships, or earning while learning"},
+      {"value": "medium", "label": "A moderate amount, possibly with an education loan"},
+      {"value": "high", "label": "I can afford private colleges or studying abroad"}
+    ]},
+    {"id": "goal", "label": "What do you want most?", "type": "single", "required": false, "options": [
+      {"value": "govt_job", "label": "A government job"},
+      {"value": "private_job", "label": "A private-sector job"},
+      {"value": "higher_studies", "label": "More studies or research"},
+      {"value": "business", "label": "My own business or freelancing"},
+      {"value": "abroad", "label": "Study or work abroad"},
+      {"value": "earn_early", "label": "Start earning early"},
+      {"value": "not_sure", "label": "Not sure yet"}
+    ]},
+    {"id": "state", "label": "Your home state (to show matching scholarships)", "type": "state", "required": false}
+  ]
+}

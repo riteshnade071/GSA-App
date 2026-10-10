@@ -1,0 +1,47 @@
+/* Farmers + Career Guidance sections. Uses the same colour variables, fonts and card look as index.html. */
+.hubnav{background:#fff;border-bottom:1px solid var(--line);display:flex;gap:8px;padding:10px 20px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}
+.hubnav .chip{flex:0 0 auto;padding:9px 16px;font-weight:600}
+.wrap.wide{max-width:960px}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chips .chip{font-size:12.5px;padding:7px 12px}
+.cards2{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:14px;align-items:start}
+.cards2 .opp{margin-bottom:0}
+.tag.central{background:#E8F3EA;color:#1B7A4B} .tag.state{background:#EEF3FF;color:#2F4FA3}
+.tag.cat{background:var(--warn);color:var(--brand);margin-left:6px}
+.tag.ok{background:#E8F3EA;color:#1B7A4B} .tag.pending{background:#FFF0D6;color:#9A5B1E}
+.opp ul{margin:6px 0 0;padding-left:18px;font-size:13px;color:var(--soft)} .opp ul li{margin-bottom:4px}
+.opp .lbl{font-size:12px;font-weight:700;color:var(--ink);margin:10px 0 2px;display:block}
+.opp a.lnk{color:var(--brand);font-weight:600;font-size:13px}
+.linklist{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:4px}
+.q{margin-bottom:16px} .q .qt{font-size:14px;font-weight:700;margin-bottom:8px;display:block}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts .chip{text-align:left;max-width:100%}
+.fit{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;border-radius:12px;margin-bottom:8px;background:var(--good);color:var(--brand)}
+.fit.strong{background:var(--brand);color:#fff}
+.note{font-size:12px;color:var(--soft);background:var(--warn);border-radius:8px;padding:9px 11px;margin:12px 0}
+.back{background:none;border:none;color:var(--brand);font-weight:600;cursor:pointer;font-family:inherit;font-size:13px;padding:0;margin-bottom:10px}
+.kp{margin:0 0 12px;padding-left:18px;font-size:13.5px} .kp li{margin-bottom:6px}
+@media (max-width:560px){
+  .hubnav{padding:8px 10px;gap:6px} .hubnav .chip{padding:8px 10px;font-size:12.5px} .wrap.wide{padding:14px} .card{padding:16px}
+  .cards2{grid-template-columns:1fr} .opts .chip{font-size:13px}
+  .applybtn,.btn{min-height:44px}
+}
+
+/* ---- Section colour themes. Scholarships keep the original purple (no data-theme). ----
+   index.html sets <body data-theme="farmers|careers"> when you switch section; every card, button,
+   chip, header and the page background read these variables, so changing a colour here changes it everywhere. */
+body{transition:background-color .25s ease}
+body[data-theme="farmers"]{
+  --ink:#1D2B20; --soft:#5A6E5D; --line:#D3E4D0; --bg:#EEF6EB; --card:#fff;
+  --brand:#1F6B3A; --accent:#3E9B57; --good:#DDF0E0; --warn:#EAF5EC;
+}
+body[data-theme="careers"]{
+  --ink:#1B2433; --soft:#586A82; --line:#D0DEEF; --bg:#EDF3FB; --card:#fff;
+  --brand:#1D4F91; --accent:#2F7FD1; --good:#DFEBFA; --warn:#EAF2FC;
+}
+body[data-theme] .top button{color:#E4F0E6}
+body[data-theme="careers"] .top button{color:#DCE9FA}
+body[data-theme] .hubnav{background:var(--card);border-bottom-color:var(--line)}
+/* the green/blue tags must stay readable on the themed backgrounds */
+body[data-theme="careers"] .tag.state{background:#FFF1DC;color:#9A5B1E}

@@ -1,0 +1,67 @@
+{
+  "last_reviewed": null,
+  "stages": {
+    "after_10th": {
+      "title": "After 10th",
+      "summary": "This is the first big fork. You can continue to Class 11 and 12 in Science, Commerce or Arts, or move to a diploma, ITI or skill course that lets you start working sooner. A diploma or ITI does not close the door on a degree: diploma holders can usually enter engineering degrees in the second year through lateral entry.",
+      "key_points": [
+        "Pick a stream by what you enjoy and are good at, not only by marks or by what friends choose.",
+        "Science with Maths (PCM) leads towards engineering, architecture and technology. Science with Biology (PCB) leads towards medicine and health. Commerce and Arts keep many doors open, including law, design, teaching, finance and civil services.",
+        "If money is tight, look at government junior colleges, polytechnics and ITIs, and at the scholarships on this site.",
+        "Whatever you pick, keep basic computer and communication skills growing."
+      ],
+      "path_ids": ["science_stream", "commerce_stream", "arts_stream", "diploma_engineering", "iti_trades", "skill_vocational", "skill_digital"]
+    },
+    "after_12th": {
+      "title": "After 12th",
+      "summary": "After 12th the choice is between a degree (general or professional), a competitive-exam route such as NDA or medical or engineering entrance, a diploma or skill course, or starting early in work or business. What you studied in 12th decides which entrance exams you can sit.",
+      "key_points": [
+        "Science with Maths (PCM): engineering (JEE and state CETs), architecture, NDA, B.Sc, computer courses, merchant navy.",
+        "Science with Biology (PCB): MBBS, BDS, AYUSH, nursing, pharmacy, veterinary, agriculture, allied health.",
+        "Commerce: B.Com, BBA, CA/CS/CMA, banking and finance paths, law and design.",
+        "Arts: BA with civil-services preparation, law, mass communication, design, teaching, hotel management.",
+        "Many entrances (CUET, CLAT, design and hotel management exams) are open to any stream. Read each exam's eligibility on its official site."
+      ],
+      "path_ids": ["btech_engineering", "bsc_science", "architecture", "nda_defence", "bca_computer", "merchant_navy", "mbbs_medicine", "bds_dental", "ayush_courses", "nursing_bsc", "pharmacy_bpharm", "veterinary_bvsc", "agriculture_bsc", "allied_health", "bcom_bba", "ca_cs_cma", "ba_humanities", "law_llb", "design_courses", "mass_communication", "teaching_career", "hotel_management", "ssc_central_jobs"]
+    },
+    "after_diploma": {
+      "title": "After a diploma or ITI",
+      "summary": "You can start work now, move into a degree through lateral entry, or sit government technical-job exams. Many people do both: work first, then study part-time.",
+      "key_points": [
+        "Lateral entry lets diploma holders join the second year of an engineering degree. Admission is usually through your state's admission authority.",
+        "Government junior engineer posts and railway technical jobs are open to diploma holders in the right trade.",
+        "Apprenticeships give paid on-the-job training and a recognised certificate."
+      ],
+      "path_ids": ["diploma_lateral_btech", "diploma_govt_jobs", "iti_trades", "skill_vocational", "skill_digital", "private_job_prep", "entrepreneurship", "freelancing"]
+    },
+    "after_ug": {
+      "title": "After a bachelor's degree",
+      "summary": "A bachelor's degree opens the main government exam routes (civil services, banks, SSC, state services), master's and professional courses, private-sector jobs, and business or freelance work.",
+      "key_points": [
+        "Government jobs have fixed exam cycles and age limits. Start preparing early and read each notification carefully.",
+        "For a master's degree, check whether your target college uses CUET-PG, GATE, CAT, a state CET or its own entrance exam.",
+        "Employers value skills as much as marks: internships, projects and certificates can matter more than you expect."
+      ],
+      "path_ids": ["civil_services", "state_services", "bank_jobs", "ssc_central_jobs", "railway_jobs", "defence_officer", "teaching_career", "mba_pgdm", "mtech_gate", "msc_ma_pg", "mca_masters_computer", "law_llb", "private_job_prep", "skill_digital", "entrepreneurship", "freelancing", "abroad_germany", "abroad_usa", "abroad_uk", "abroad_canada", "abroad_france", "abroad_japan"]
+    },
+    "after_pg": {
+      "title": "After a master's degree",
+      "summary": "Typical routes are research and teaching (NET and PhD), senior government posts, specialised private-sector roles, and your own venture. Studying abroad for a PhD is also possible.",
+      "key_points": [
+        "UGC NET qualifies you for assistant professor posts and research fellowships. CSIR NET covers science subjects.",
+        "Government exams usually accept any postgraduate, but check each age limit and attempt limit.",
+        "Industry roles often ask for specific skills on top of your degree."
+      ],
+      "path_ids": ["phd_research_net", "civil_services", "state_services", "teaching_career", "private_job_prep", "entrepreneurship", "freelancing", "skill_digital", "abroad_germany", "abroad_usa", "abroad_uk", "abroad_canada"]
+    }
+  },
+  "study_abroad_checklist": [
+    "Decide your course and budget first, then shortlist countries.",
+    "Use only the official education portals of each country and the universities' own websites to check courses, fees and visa rules.",
+    "Most universities need an English test (IELTS or TOEFL) or, in some countries, proof of another language. Check each programme.",
+    "Apply to scholarships early: deadlines are often 8 to 12 months before the course starts.",
+    "Be careful with agents. Never pay anyone to promise a visa or a seat, and verify every offer on the university's own website.",
+    "Register with the Indian government's Madad portal once you are abroad."
+  ],
+  "disclaimer": "Career guidance on this page is general information compiled from official sources and is not a substitute for the official notification of an exam, college or scheme. Dates, eligibility and fees change every year. Always confirm on the official link before you pay or apply."
+}
