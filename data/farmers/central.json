@@ -1,0 +1,145 @@
+[
+  {
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "sub_category": "financial",
+    "state": null,
+    "amount": "₹6,000 a year, paid in 3 instalments of ₹2,000",
+    "description": "Central income-support scheme for farmer families that own cultivable land. Money goes straight into the farmer's bank account.",
+    "benefits": "₹6,000 per family per year in three equal instalments of ₹2,000 every four months, by Direct Benefit Transfer (DBT).",
+    "eligibility_text": "A farmer family that owns cultivable land recorded in the state land records, with an Aadhaar-linked bank account. eKYC is mandatory. Not eligible: institutional landholders, current or former holders of constitutional posts, income-tax payers, professionals such as doctors, engineers and lawyers, and retired pensioners getting ₹10,000 or more a month (multi-tasking/Group D staff excepted). Only one member of a family is paid. Land bought after 1 Feb 2019 can be held for physical verification.",
+    "tags": ["landowner"],
+    "required_documents": ["Aadhaar card", "Bank account linked with Aadhaar", "Land ownership record of your state", "Mobile number linked to Aadhaar (for OTP eKYC)"],
+    "steps": [
+      "Open pmkisan.gov.in, go to Farmers Corner and choose New Farmer Registration (or visit your nearest CSC).",
+      "Choose rural or urban farmer, enter your Aadhaar number and state, and let the portal check whether you are already registered.",
+      "Fill in your personal, bank and land details exactly as they appear in your records.",
+      "Complete eKYC: OTP-based eKYC on the portal, or biometric eKYC at a Common Service Centre.",
+      "State officials verify your land and details. After approval the instalments arrive by DBT; use 'Know Your Status' on the portal to follow it."
+    ],
+    "official_url": "https://pmkisan.gov.in",
+    "source_organization": "Department of Agriculture & Farmers Welfare, Government of India",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY) — crop insurance",
+    "sub_category": "crop_insurance",
+    "state": null,
+    "amount": "You pay at most 2% (Kharif), 1.5% (Rabi food crops and oilseeds) or 5% (commercial/horticulture crops) of the sum insured",
+    "description": "Crop insurance against loss from natural calamities, pests and diseases. The government pays the rest of the premium. The scheme continues for 2026-27, but only some States/UTs run it (25 in Kharif 2026), so check that yours does.",
+    "benefits": "Insurance cover on notified crops in notified areas; claims are paid into the farmer's bank account. Report localised crop loss quickly (within 72 hours) to the insurer, your bank or the agriculture office.",
+    "eligibility_text": "Farmers growing a notified crop in a notified area that season, including tenant farmers and sharecroppers. Enrolment is voluntary, also for farmers with crop loans. Deadlines are set by each state, per crop and season, so confirm the last date for your district before sowing is over.",
+    "tags": ["any_farmer", "tenant"],
+    "required_documents": ["Aadhaar card", "Bank account details / passbook", "Land record, or tenancy / sharecropping agreement", "Sowing declaration (the crop you actually sowed)", "Mobile number"],
+    "steps": [
+      "Check on pmfby.gov.in or at your local agriculture office that your crop and village are notified and what the last date is this season.",
+      "Enrol through your bank (if you have a crop loan or KCC), a Common Service Centre, or yourself on pmfby.gov.in under Farmer Corner.",
+      "Pay your share of the premium and keep the receipt and application ID.",
+      "If a calamity hits your crop, report it within 72 hours to the insurer, bank or agriculture office.",
+      "Track your policy and claim on pmfby.gov.in using the application status option."
+    ],
+    "official_url": "https://pmfby.gov.in",
+    "source_organization": "Department of Agriculture & Farmers Welfare, Government of India",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "name": "Kisan Credit Card (KCC) with interest subvention",
+    "sub_category": "loans",
+    "state": null,
+    "amount": "Crop loans at 7% interest, effectively 4% with timely repayment (interest-subvention scheme, loans up to ₹3 lakh)",
+    "description": "Revolving short-term credit for seeds, fertiliser and other crop needs, with government interest support. Also available for animal husbandry and fisheries. Budget 2025-26 announced a rise in the loan limit from ₹3 lakh to ₹5 lakh, so ask your bank for the limit that applies today.",
+    "benefits": "Short-term crop loans at 7% a year; an extra 3% prompt-repayment incentive brings it to 4%. Loans up to ₹2 lakh per borrower can be taken without collateral.",
+    "eligibility_text": "Farmers who cultivate land, including owner-cultivators, tenant farmers, oral lessees and sharecroppers, and groups of farmers (self-help or joint liability groups). Fishers and animal-husbandry farmers can also apply. The bank sets your limit from your land, crops and needs. To get the 4% rate you must repay on time.",
+    "tags": ["any_farmer", "tenant", "fpo_coop"],
+    "required_documents": ["Bank's KCC application form", "Aadhaar / identity proof", "Address proof", "Land record or tenancy proof", "Passport-size photographs"],
+    "steps": [
+      "Go to your bank branch, rural bank or primary agricultural cooperative society and ask for the Kisan Credit Card form. If you are a PM-KISAN beneficiary, your PM-KISAN details can simplify the form.",
+      "Fill the form and attach your identity, address and land documents.",
+      "The bank checks your land and crop details and fixes your limit.",
+      "Use the card within the limit and repay on time to keep the interest benefit."
+    ],
+    "official_url": "https://www.nabard.org",
+    "source_organization": "Department of Agriculture & Farmers Welfare / RBI / NABARD",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "name": "PM-KUSUM — solar pumps for farmers",
+    "sub_category": "solar_pump",
+    "state": null,
+    "amount": "Up to 60% subsidy on a standalone solar pump up to 7.5 HP (30% Centre + 30% State); you pay 40%, of which a bank loan can cover 30%",
+    "description": "Central scheme (MNRE) to replace diesel pumps with solar pumps and to solarise existing grid-connected pumps. Component B is standalone solar pumps; Component C is solarising existing grid pumps. The states run the applications.",
+    "benefits": "Central subsidy of 30% of the benchmark cost (50% in the North-East and hill states) plus at least 30% from the state. With a bank loan for 30%, the farmer's upfront share can be as low as 10%.",
+    "eligibility_text": "Farmers who need an irrigation solar pump up to 7.5 HP, bought from an approved vendor. The states notify who can apply and in what order, so check your state's portal. Subsidy is calculated on the MNRE benchmark cost, not your invoice.",
+    "tags": ["any_farmer", "fpo_coop"],
+    "required_documents": ["Aadhaar card", "Land ownership or lease record", "Bank account details", "Passport-size photograph", "Electricity connection details (for solarising an existing grid pump)"],
+    "steps": [
+      "Open pmkusum.mnre.gov.in and follow the link to your state's nodal agency.",
+      "Register on the state portal with your Aadhaar and mobile number.",
+      "Choose pump capacity and an approved vendor, and upload your documents.",
+      "When the demand letter arrives, pay your share (a bank loan can cover part of it).",
+      "The vendor installs the pump and the state agency inspects it."
+    ],
+    "official_url": "https://pmkusum.mnre.gov.in",
+    "source_organization": "Ministry of New and Renewable Energy (MNRE), Government of India",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "name": "PMKSY – Per Drop More Crop (drip and sprinkler irrigation subsidy)",
+    "sub_category": "irrigation",
+    "state": null,
+    "amount": "55% subsidy for small and marginal farmers, 45% for other farmers, up to 5 hectares",
+    "description": "Central support for installing drip and sprinkler (micro-irrigation) systems to save water and raise yield. The states run it through their agriculture or horticulture departments.",
+    "benefits": "Financial assistance of 55% of the cost for small and marginal farmers and 45% for others, with the subsidy limited to 5 hectares per beneficiary. Some states add a top-up.",
+    "eligibility_text": "Farmers who install a drip or sprinkler system on their land. Small and marginal farmers get the higher rate. The subsidy ceiling is 5 hectares per beneficiary. Your state decides the application window and selection method.",
+    "tags": ["any_farmer", "small_marginal"],
+    "required_documents": ["Aadhaar card", "Land record", "Bank passbook", "Caste certificate (only if you claim a category benefit)", "Quotation or bill from an approved supplier, as your state requires"],
+    "steps": [
+      "Apply on your state's farmer-scheme portal (in Maharashtra this is MahaDBT) and choose the micro-irrigation scheme.",
+      "Upload your land record, Aadhaar and bank details.",
+      "After approval, buy and install the system from an approved supplier.",
+      "Officials inspect the installation and the subsidy is paid to your bank account."
+    ],
+    "official_url": "https://pmksy.gov.in",
+    "source_organization": "Department of Agriculture & Farmers Welfare, Government of India",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "name": "Sub-Mission on Agricultural Mechanization (SMAM) — farm machinery subsidy",
+    "sub_category": "equipment",
+    "state": null,
+    "amount": "Typically 40% of machine cost, 50% for SC/ST, women and small/marginal farmers, with per-machine caps",
+    "description": "Central scheme that helps farmers buy tractors, power tillers, harvesters, sprayers and other implements, and helps set up custom hiring centres. The states manage the applications.",
+    "benefits": "Subsidy paid into the farmer's bank account after purchase and verification. Rates and caps depend on the machine and your category, so the list on your state portal is the one that counts.",
+    "eligibility_text": "Farmers buying approved machinery, with priority for SC/ST, women, and small and marginal farmers. Most states allow a subsidy on the same machine type only once in several years. Machines must be on your state's approved list.",
+    "tags": ["any_farmer", "small_marginal", "sc_st", "women"],
+    "required_documents": ["Aadhaar card", "Land record", "Bank passbook (Aadhaar-linked)", "Caste certificate (SC/ST applicants)", "Quotation or invoice for the machine"],
+    "steps": [
+      "Apply on your state's farmer-scheme portal (in Maharashtra: MahaDBT, Farmer Schemes, Agricultural Mechanization).",
+      "Choose the machine from the approved list and upload your documents.",
+      "If selected, buy the machine from an approved dealer and upload the invoice.",
+      "After verification the subsidy is credited to your bank account."
+    ],
+    "official_url": "https://agrimachinery.nic.in",
+    "source_organization": "Department of Agriculture & Farmers Welfare, Government of India",
+    "checked_on": "2026-10-09"
+  },
+  {
+    "name": "Agriculture Infrastructure Fund (AIF) — loans for storage, processing and farm-gate projects",
+    "sub_category": "loans",
+    "state": null,
+    "amount": "3% a year interest subvention on loans up to ₹2 crore, for up to 7 years",
+    "description": "A long-term loan facility for post-harvest and community farming projects such as cold storage, warehouses, sorting and grading, and processing units. Open to farmers, FPOs, cooperatives, self-help groups and agri-entrepreneurs.",
+    "benefits": "3% interest subvention on loans up to ₹2 crore for a maximum of 7 years, and credit-guarantee cover (CGTMSE) for loans up to ₹2 crore, so no collateral is needed up to that limit. One applicant can set up to 25 projects in different locations.",
+    "eligibility_text": "Farmers, FPOs, primary agricultural credit societies, marketing cooperatives, self-help groups, joint liability groups, agri-entrepreneurs, start-ups and public-private projects with a viable post-harvest or farm-gate project. The scheme runs till 2032-33.",
+    "tags": ["any_farmer", "fpo_coop"],
+    "required_documents": ["Identity and address proof", "Project report", "Land or lease documents for the project site", "Bank statements", "Registration papers for FPO / society / firm, if applicable"],
+    "steps": [
+      "Prepare a project report for your storage, processing or farm-gate project.",
+      "Apply on the AIF portal (agriinfra.dac.gov.in) or at a participating bank.",
+      "The bank appraises the project and sanctions the loan with the interest subvention.",
+      "Build the project and keep your repayments on schedule."
+    ],
+    "official_url": "https://agriinfra.dac.gov.in",
+    "source_organization": "Department of Agriculture & Farmers Welfare, Government of India",
+    "checked_on": "2026-10-09"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "CM-KISAN Yojana (Odisha)",
+    "sub_category": "financial",
+    "state": "Odisha",
+    "amount": "₹4,000 a year for small and marginal farmers (two instalments of ₹2,000); ₹12,500 for landless agricultural households",
+    "description": "Odisha's farmer support scheme, launched on 8 September 2024 in place of KALIA. Money is paid by direct bank transfer around Nuakhai and Akshaya Tritiya. A small or marginal farmer also gets ₹6,000 from PM-KISAN, so the yearly total is ₹10,000.",
+    "benefits": "₹4,000 a year in two instalments of ₹2,000 for small and marginal farmers. Landless agricultural households get ₹12,500; sources differ on whether this is one payment or three, so confirm on the portal.",
+    "eligibility_text": "Small and marginal farmers and landless agricultural households that live in Odisha. Medium and large farmers and urban farmers are not eligible. Before you apply, your land details must be registered on the Krushak Odisha portal.",
+    "tags": ["small_marginal", "landless"],
+    "required_documents": ["Aadhaar card", "Odisha domicile or residence proof", "Land details registered on the Krushak Odisha portal", "Bank account details", "Mobile number"],
+    "steps": [
+      "Register your land and farmer details on the Krushak Odisha portal.",
+      "Apply online on the CM-KISAN portal.",
+      "Check your application status and beneficiary list on the portal.",
+      "For help, call the Krushi Samruddhi helpline on 155333."
+    ],
+    "official_url": "https://krushak.odisha.gov.in",
+    "source_organization": "Department of Agriculture & Farmers' Empowerment, Government of Odisha",
+    "checked_on": "2026-10-10"
+  }
+]

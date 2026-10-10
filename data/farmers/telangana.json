@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Rythu Bharosa (Telangana crop investment support)",
+    "sub_category": "financial",
+    "state": "Telangana",
+    "amount": "₹12,000 per acre a year, paid as ₹6,000 per acre in each of the two seasons (Kharif and Rabi)",
+    "description": "Telangana's crop investment support. It replaced Rythu Bandhu from 26 January 2025 and is paid straight to the farmer's bank account. For Kharif 2026 the state began releasing ₹6,000 per acre from 30 June 2026.",
+    "benefits": "₹6,000 per acre per season by direct bank transfer for land the state treats as cultivable. Farmers holding forest podu land under the Recognition of Forest Rights Act are also covered.",
+    "eligibility_text": "Farmers of Telangana with agricultural land that is fit for cultivation. Not eligible: uncultivated land, hills with mining, land taken for roads, farm land converted for real estate or industry, and land acquired by the state. Land is checked through joint surveys by agriculture and revenue officials using survey numbers on the Bhu Bharati portal, and by village meetings (gram sabhas). Rules and amounts are set by the state, so check the current guidelines before relying on this.",
+    "tags": ["landowner"],
+    "required_documents": ["Land records / pattadar passbook (survey numbers on the Bhu Bharati portal)", "Bank account details linked with Aadhaar", "Aadhaar card", "Mobile number"],
+    "steps": [
+      "Make sure your land and survey number are correctly recorded on the Bhu Bharati land portal.",
+      "Attend or check the village gram sabha lists, where eligible land is announced. Contact your Mandal Agriculture Officer if your land was left out.",
+      "Keep your bank account details up to date so the money can be sent by DBT.",
+      "Check your payment status on the Rythu Bharosa portal. If it says processed but you got no money, ask the Mandal Agriculture Office."
+    ],
+    "official_url": "https://rythubharosa.telangana.gov.in",
+    "source_organization": "Agriculture & Cooperation Department, Government of Telangana",
+    "checked_on": "2026-10-10"
+  },
+  {
+    "name": "Indiramma Atmiya Bharosa (Telangana, landless agricultural families)",
+    "sub_category": "financial",
+    "state": "Telangana",
+    "amount": "₹12,000 a year per eligible landless agricultural family",
+    "description": "Telangana's support for landless farm-labour families, announced together with Rythu Bharosa. Families are identified from MGNREGS job-card records.",
+    "benefits": "₹12,000 a year paid by direct bank transfer to eligible landless agricultural families.",
+    "eligibility_text": "Landless agricultural families of Telangana in which a member worked at least 20 days under MGNREGS in 2023-24, as stated in the January 2025 guidelines. The state may have updated the criteria since, so confirm the current rules with your Mandal office.",
+    "tags": ["landless"],
+    "required_documents": ["MGNREGS job card", "Aadhaar card", "Bank account details linked with Aadhaar", "Ration card (if the office asks for it)"],
+    "steps": [
+      "Check that your MGNREGS job card and work days are correctly recorded.",
+      "Ask your Mandal or Gram Panchayat office whether your family is on the eligible list.",
+      "Keep your Aadhaar-linked bank account details up to date for the transfer."
+    ],
+    "official_url": "https://rythubharosa.telangana.gov.in",
+    "source_organization": "Government of Telangana",
+    "checked_on": "2026-10-10"
+  }
+]

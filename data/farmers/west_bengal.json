@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Krishak Bandhu (West Bengal)",
+    "sub_category": "financial",
+    "state": "West Bengal",
+    "amount": "₹10,000 a year for 1 acre or more (₹4,000 minimum for smaller holdings), in two instalments; ₹2 lakh death benefit",
+    "description": "West Bengal's income-support and social-security scheme for farmers. It has two parts: assured income during the Kharif and Rabi seasons, and a death benefit for the farmer's family. The recast scheme (Krishak Bandhu Natun) was launched on 17 June 2021.",
+    "benefits": "Farmers with 1 acre or more of cultivable land get ₹10,000 a year in two equal instalments (Kharif and Rabi). Smaller holdings get a pro-rata amount, with a minimum of ₹4,000 a year. If a registered farmer aged 18 to 60 dies, the family gets a one-time ₹2 lakh. Registered farmers also get preference in the state's paddy procurement.",
+    "eligibility_text": "Farmers of West Bengal with recorded land (ROR) and recorded sharecroppers (Bhagchasi). The state's death-benefit rules cover a farmer or recorded sharecropper between 18 and 60 years of age; the legal heir or nominee receives the grant.",
+    "tags": ["landowner", "tenant"],
+    "required_documents": ["Aadhaar card", "Land record (ROR / Khatian) or Bhagchasi record", "Bank account details", "Mobile number", "For the death benefit: attested copy of the Krishak Bandhu card and legal heir certificate"],
+    "steps": [
+      "Open the Krishak Bandhu portal and choose Sign In, then Sign Up for the online registration.",
+      "Fill in the registration form with your personal, land and bank details.",
+      "Attach the required documents and submit the form.",
+      "For the death benefit, the family applies through the same scheme with the Krishak Bandhu card and legal heir certificate."
+    ],
+    "official_url": "https://krishakbandhu.wb.gov.in",
+    "source_organization": "Department of Agriculture, Government of West Bengal",
+    "checked_on": "2026-10-10"
+  }
+]
