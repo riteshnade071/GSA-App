@@ -1,3 +1,0 @@
-# Only needed to run the tests locally (Render does not need this file).
--r requirements.txt
-httpx
