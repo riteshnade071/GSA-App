@@ -1,0 +1,30 @@
+[
+  {
+    "name": "AIMS — Kerala Agriculture Information Management System (farmer registration and services)",
+    "sub_category": "other",
+    "state": "Kerala",
+    "amount": "Varies by service",
+    "description": "Kerala's single-window portal for farmers (aims.kerala.gov.in). You register once, declare your land and crops, and then apply online for Agriculture Department services: crop insurance, assistance for crop loss in natural calamities, royalty to owners of cultivable paddy land, and the base price for the Kerala Farm Fresh fruits and vegetables scheme. Applications are processed by your Krishi Bhavan, block, district and directorate offices.",
+    "benefits": "Assistance under the service you apply for, sent to your bank account by direct benefit transfer (DBT) after verification at the Krishi Bhavan.",
+    "eligibility_text": "Farmers in Kerala who register on AIMS and declare their land and crops. Each service has its own conditions (for example royalty is for owners of cultivable paddy land). Rates and rules can change with the state budget and government, so check the service page before applying.",
+    "tags": [
+      "any_farmer"
+    ],
+    "required_documents": [
+      "Aadhaar and mobile number",
+      "Land details (ownership or lease record)",
+      "Details of the crops you grow",
+      "Bank account in your name"
+    ],
+    "steps": [
+      "Open aims.kerala.gov.in and do the one-time farmer self-registration (you can also ask your Krishi Bhavan or an Akshaya centre).",
+      "Declare your land and the crops you grow.",
+      "From your dashboard choose the service you need (crop insurance, crop-loss assistance, paddy royalty and so on) and submit the online application.",
+      "The Krishi Bhavan and higher offices check it. Follow the status on your dashboard or the AIMS app; the benefit comes by DBT.",
+      "If a calamity damages your crop, report it to your Krishi Bhavan from the AIMS dashboard within the time the department announces."
+    ],
+    "official_url": "https://aims.kerala.gov.in",
+    "source_organization": "Department of Agriculture Development and Farmers' Welfare, Government of Kerala (portal by NIC Kerala)",
+    "checked_on": "2026-10-12"
+  }
+]

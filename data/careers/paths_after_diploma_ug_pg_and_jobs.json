@@ -1,0 +1,1049 @@
+[
+ {
+  "id": "diploma_lateral_btech",
+  "title": "Lateral entry into B.Tech after diploma",
+  "type": "degree",
+  "stages": [
+   "after_diploma"
+  ],
+  "streams": [
+   "pcm"
+  ],
+  "interests": [
+   "technology",
+   "technical_trades"
+  ],
+  "skills": [
+   "logic",
+   "hands_on"
+  ],
+  "goals": [
+   "higher_studies",
+   "private_job"
+  ],
+  "budget_level": "medium",
+  "summary": "Diploma holders can often join the second year of an engineering degree, saving a year. Admission is through state-level processes.",
+  "qualification": "A recognised diploma in a related branch, with minimum marks set by the state.",
+  "courses": [
+   "B.Tech / B.E. (lateral entry to second year)"
+  ],
+  "entrance_exams": [
+   {
+    "name": "State lateral entry admissions (Maharashtra: through the Directorate of Technical Education)",
+    "url": "https://dtemaharashtra.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Same jobs as a regular engineering graduate",
+   "Better chances for senior technical roles",
+   "GATE and higher studies"
+  ],
+  "next_steps": [
+   "Check your state's lateral entry notification each year.",
+   "Compare colleges on fees and placements."
+  ],
+  "official_links": [
+   {
+    "label": "Maharashtra Directorate of Technical Education",
+    "url": "https://dtemaharashtra.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "engineering",
+   "diploma",
+   "technical"
+  ]
+ },
+ {
+  "id": "diploma_govt_jobs",
+  "title": "Government technical jobs after diploma",
+  "type": "govt_job",
+  "stages": [
+   "after_diploma"
+  ],
+  "streams": [
+   "pcm"
+  ],
+  "interests": [
+   "technical_trades",
+   "govt_service"
+  ],
+  "skills": [
+   "hands_on",
+   "logic"
+  ],
+  "goals": [
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "Diploma holders can apply for junior engineer and technician posts in central and state departments, railways and public-sector companies.",
+  "qualification": "A diploma in the matching branch. Age limits apply.",
+  "courses": [
+   "SSC Junior Engineer",
+   "Railway technical posts",
+   "State public works and electricity board posts"
+  ],
+  "entrance_exams": [
+   {
+    "name": "SSC exams",
+    "url": "https://ssc.gov.in"
+   },
+   {
+    "name": "Railway recruitment notifications",
+    "url": "https://indianrailways.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Junior engineer",
+   "Technician and supervisor roles",
+   "Stable government careers"
+  ],
+  "next_steps": [
+   "Read the SSC and railway notifications for your branch.",
+   "Prepare the technical subject and general knowledge."
+  ],
+  "official_links": [
+   {
+    "label": "Staff Selection Commission",
+    "url": "https://ssc.gov.in"
+   },
+   {
+    "label": "Indian Railways",
+    "url": "https://indianrailways.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "govt",
+   "diploma",
+   "technical"
+  ]
+ },
+ {
+  "id": "civil_services",
+  "title": "Civil services (UPSC)",
+  "type": "competitive_exam",
+  "stages": [
+   "after_ug",
+   "after_pg"
+  ],
+  "streams": [],
+  "interests": [
+   "govt_service",
+   "law"
+  ],
+  "skills": [
+   "writing",
+   "communication",
+   "leadership"
+  ],
+  "goals": [
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "The UPSC civil services exam selects officers for the IAS, IPS, IFS and other central services. It has three stages: prelims, mains and an interview.",
+  "qualification": "A bachelor's degree in any stream, with age and attempt limits in the notification.",
+  "courses": [
+   "IAS",
+   "IPS",
+   "IFS",
+   "IRS and other central services"
+  ],
+  "entrance_exams": [
+   {
+    "name": "UPSC Civil Services",
+    "url": "https://upsc.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Officer posts in administration, police, foreign service and revenue",
+   "Policy and public-service careers"
+  ],
+  "next_steps": [
+   "Read the UPSC notification and syllabus.",
+   "Build a daily study routine and keep a backup career plan.",
+   "Look at state civil services (like MPSC) alongside."
+  ],
+  "official_links": [
+   {
+    "label": "UPSC",
+    "url": "https://upsc.gov.in"
+   },
+   {
+    "label": "National Career Service portal",
+    "url": "https://www.ncs.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "upsc",
+   "civil",
+   "government"
+  ]
+ },
+ {
+  "id": "state_services",
+  "title": "State public service commission exams (Maharashtra: MPSC)",
+  "type": "govt_job",
+  "stages": [
+   "after_ug",
+   "after_pg"
+  ],
+  "streams": [],
+  "interests": [
+   "govt_service"
+  ],
+  "skills": [
+   "writing",
+   "communication"
+  ],
+  "goals": [
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "State commissions recruit for state administrative, police, revenue, forest and other services. Maharashtra's MPSC holds its own exams.",
+  "qualification": "A bachelor's degree for most posts, with age limits as per each notification.",
+  "courses": [
+   "MPSC State Services",
+   "MPSC Group B and Group C posts",
+   "Other state commissions"
+  ],
+  "entrance_exams": [
+   {
+    "name": "Maharashtra Public Service Commission",
+    "url": "https://mpsc.gov.in"
+   }
+  ],
+  "opportunities": [
+   "State administrative and revenue posts",
+   "Police sub-inspector and other state posts",
+   "Stable state government careers"
+  ],
+  "next_steps": [
+   "Check MPSC's yearly exam schedule.",
+   "Prepare in your home-state language and the general syllabus."
+  ],
+  "official_links": [
+   {
+    "label": "MPSC",
+    "url": "https://mpsc.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "govt",
+   "mpsc",
+   "state"
+  ]
+ },
+ {
+  "id": "bank_jobs",
+  "title": "Banking jobs (IBPS and SBI exams)",
+  "type": "govt_job",
+  "stages": [
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "finance",
+   "govt_service"
+  ],
+  "skills": [
+   "logic",
+   "communication"
+  ],
+  "goals": [
+   "govt_job",
+   "private_job"
+  ],
+  "budget_level": "low",
+  "summary": "Public-sector banks recruit officers (PO) and clerks through national exams. Many private banks also hire graduates.",
+  "qualification": "A bachelor's degree. Age limits apply.",
+  "courses": [
+   "IBPS PO, Clerk, RRB (rural banks)",
+   "SBI PO and Clerk",
+   "RBI Grade B (advanced)"
+  ],
+  "entrance_exams": [
+   {
+    "name": "IBPS",
+    "url": "https://www.ibps.in"
+   },
+   {
+    "name": "RBI recruitment",
+    "url": "https://www.rbi.org.in"
+   }
+  ],
+  "opportunities": [
+   "Probationary officer and clerical posts",
+   "Rural bank officer posts",
+   "Long-term finance careers"
+  ],
+  "next_steps": [
+   "Read the IBPS and SBI notifications.",
+   "Practise quantitative aptitude, reasoning and English."
+  ],
+  "official_links": [
+   {
+    "label": "IBPS",
+    "url": "https://www.ibps.in"
+   },
+   {
+    "label": "Reserve Bank of India",
+    "url": "https://www.rbi.org.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "bank",
+   "finance"
+  ]
+ },
+ {
+  "id": "railway_jobs",
+  "title": "Railway jobs",
+  "type": "govt_job",
+  "stages": [
+   "after_ug",
+   "after_diploma"
+  ],
+  "streams": [],
+  "interests": [
+   "govt_service",
+   "technical_trades"
+  ],
+  "skills": [
+   "logic",
+   "hands_on"
+  ],
+  "goals": [
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "Indian Railways recruits for technical, clerical and non-technical posts at many levels through the railway recruitment boards.",
+  "qualification": "From 10th or ITI up to graduate level depending on the post. Age limits apply.",
+  "courses": [
+   "Technician and Assistant Loco Pilot",
+   "Junior Engineer",
+   "Non-technical popular categories (NTPC)"
+  ],
+  "entrance_exams": [
+   {
+    "name": "Railway notifications",
+    "url": "https://indianrailways.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Technical and non-technical railway posts",
+   "Stable government careers with allowances"
+  ],
+  "next_steps": [
+   "Follow the railway recruitment board for your region.",
+   "Prepare for the written test and any physical or medical standards."
+  ],
+  "official_links": [
+   {
+    "label": "Indian Railways",
+    "url": "https://indianrailways.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "railway",
+   "govt"
+  ]
+ },
+ {
+  "id": "defence_officer",
+  "title": "Defence officer entries (CDS, AFCAT, technical entry)",
+  "type": "competitive_exam",
+  "stages": [
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "defence"
+  ],
+  "skills": [
+   "leadership",
+   "hands_on"
+  ],
+  "goals": [
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "Graduates can join the armed forces as officers through the Combined Defence Services exam and the Air Force common admission test, followed by SSB interviews.",
+  "qualification": "A bachelor's degree. Age limits and subject needs differ by entry.",
+  "courses": [
+   "CDS (UPSC)",
+   "AFCAT",
+   "Technical graduate entries"
+  ],
+  "entrance_exams": [
+   {
+    "name": "CDS by UPSC",
+    "url": "https://upsc.gov.in"
+   },
+   {
+    "name": "AFCAT",
+    "url": "https://afcat.cdac.in"
+   }
+  ],
+  "opportunities": [
+   "Commissioned officer in Army, Navy or Air Force"
+  ],
+  "next_steps": [
+   "Read the CDS and AFCAT notifications.",
+   "Work on fitness and on the SSB interview skills."
+  ],
+  "official_links": [
+   {
+    "label": "UPSC",
+    "url": "https://upsc.gov.in"
+   },
+   {
+    "label": "Join Indian Army",
+    "url": "https://joinindianarmy.nic.in"
+   },
+   {
+    "label": "Join Indian Navy",
+    "url": "https://joinindiannavy.gov.in"
+   },
+   {
+    "label": "AFCAT",
+    "url": "https://afcat.cdac.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "defence"
+  ]
+ },
+ {
+  "id": "mba_pgdm",
+  "title": "MBA / PGDM",
+  "type": "degree",
+  "stages": [
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "business",
+   "finance"
+  ],
+  "skills": [
+   "leadership",
+   "communication",
+   "logic"
+  ],
+  "goals": [
+   "private_job",
+   "business",
+   "higher_studies"
+  ],
+  "budget_level": "high",
+  "summary": "A 2-year postgraduate management degree. It leads to management roles in finance, marketing, operations and consulting.",
+  "qualification": "A bachelor's degree in any stream, with minimum marks as per each institute.",
+  "courses": [
+   "MBA",
+   "PGDM",
+   "Executive MBA for working professionals"
+  ],
+  "entrance_exams": [
+   {
+    "name": "CAT (IIMs and many others)",
+    "url": "https://iimcat.ac.in"
+   },
+   {
+    "name": "MAH-CET MBA (Maharashtra)",
+    "url": "https://cetcell.mahacet.org"
+   }
+  ],
+  "opportunities": [
+   "Management trainee and business roles",
+   "Consulting, finance and marketing careers",
+   "Entrepreneurship"
+  ],
+  "next_steps": [
+   "Read the CAT and MAH-CET notifications for dates.",
+   "Work on aptitude and communication.",
+   "Compare institutes on placement outcomes and fees."
+  ],
+  "official_links": [
+   {
+    "label": "CAT",
+    "url": "https://iimcat.ac.in"
+   },
+   {
+    "label": "Maharashtra CET Cell",
+    "url": "https://cetcell.mahacet.org"
+   }
+  ],
+  "scholarship_keywords": [
+   "mba",
+   "management"
+  ]
+ },
+ {
+  "id": "mtech_gate",
+  "title": "M.Tech and public-sector jobs through GATE",
+  "type": "degree",
+  "stages": [
+   "after_ug"
+  ],
+  "streams": [
+   "pcm"
+  ],
+  "interests": [
+   "technology",
+   "research",
+   "technical_trades"
+  ],
+  "skills": [
+   "logic",
+   "curiosity"
+  ],
+  "goals": [
+   "higher_studies",
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "GATE is an exam for engineering and science graduates. A good score opens M.Tech admissions and some public-sector company recruitment.",
+  "qualification": "A bachelor's degree in engineering or science. Final-year students can usually apply.",
+  "courses": [
+   "M.Tech / M.E.",
+   "PhD after GATE",
+   "Public sector recruitment through GATE score"
+  ],
+  "entrance_exams": [
+   {
+    "name": "GATE (conducted by IITs each year; check the official GATE website for the current year)",
+    "url": null
+   }
+  ],
+  "opportunities": [
+   "Higher studies at IITs, NITs and other institutes",
+   "Public-sector undertaking jobs",
+   "Research and teaching"
+  ],
+  "next_steps": [
+   "Look up the official GATE website of the current year for dates and rules.",
+   "Choose your paper according to your branch."
+  ],
+  "official_links": [
+   {
+    "label": "National Career Service portal",
+    "url": "https://www.ncs.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "engineering",
+   "research",
+   "technical"
+  ]
+ },
+ {
+  "id": "msc_ma_pg",
+  "title": "Master's degrees (M.Sc., M.A., M.Com)",
+  "type": "degree",
+  "stages": [
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "research",
+   "teaching"
+  ],
+  "skills": [
+   "curiosity",
+   "writing"
+  ],
+  "goals": [
+   "higher_studies",
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "A 2-year postgraduate degree that deepens your subject and opens the way to NET, research and teaching.",
+  "qualification": "A bachelor's degree in the same or a related subject.",
+  "courses": [
+   "M.Sc.",
+   "M.A.",
+   "M.Com",
+   "MSW"
+  ],
+  "entrance_exams": [
+   {
+    "name": "CUET PG",
+    "url": "https://cuet.nta.nic.in"
+   },
+   {
+    "name": "University entrance or merit",
+    "url": null
+   }
+  ],
+  "opportunities": [
+   "Teaching after NET",
+   "Research and PhD",
+   "Specialist roles in industry"
+  ],
+  "next_steps": [
+   "Check CUET PG and your target universities' own admission rules.",
+   "Plan your NET preparation early if you want to teach."
+  ],
+  "official_links": [
+   {
+    "label": "National Testing Agency (NTA)",
+    "url": "https://nta.ac.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "pg",
+   "masters",
+   "research"
+  ]
+ },
+ {
+  "id": "mca_masters_computer",
+  "title": "MCA and master's in computer science",
+  "type": "degree",
+  "stages": [
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "technology"
+  ],
+  "skills": [
+   "computers",
+   "logic"
+  ],
+  "goals": [
+   "private_job",
+   "higher_studies",
+   "abroad"
+  ],
+  "budget_level": "medium",
+  "summary": "A 2-year master's in computers for graduates, leading to advanced software and IT roles.",
+  "qualification": "A bachelor's degree (BCA, B.Sc. or others, with Maths in some cases).",
+  "courses": [
+   "MCA",
+   "M.Sc. Computer Science",
+   "M.Sc. Data Science"
+  ],
+  "entrance_exams": [
+   {
+    "name": "MAH MCA CET (Maharashtra)",
+    "url": "https://cetcell.mahacet.org"
+   },
+   {
+    "name": "CUET PG",
+    "url": "https://cuet.nta.nic.in"
+   }
+  ],
+  "opportunities": [
+   "Software developer or analyst",
+   "Data and AI roles",
+   "IT consulting and teaching"
+  ],
+  "next_steps": [
+   "Check state CET and CUET PG notifications.",
+   "Strengthen programming and data skills through online courses."
+  ],
+  "official_links": [
+   {
+    "label": "Maharashtra CET Cell",
+    "url": "https://cetcell.mahacet.org"
+   },
+   {
+    "label": "National Testing Agency (NTA)",
+    "url": "https://nta.ac.in"
+   },
+   {
+    "label": "SWAYAM free courses",
+    "url": "https://swayam.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "computer",
+   "technical",
+   "engineering"
+  ]
+ },
+ {
+  "id": "phd_research_net",
+  "title": "Research and lectureship (UGC NET, CSIR NET, PhD)",
+  "type": "competitive_exam",
+  "stages": [
+   "after_pg"
+  ],
+  "streams": [],
+  "interests": [
+   "research",
+   "teaching"
+  ],
+  "skills": [
+   "curiosity",
+   "writing"
+  ],
+  "goals": [
+   "higher_studies",
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "NET qualifies you for assistant professor posts and research fellowships. A PhD takes you into research, university teaching and scientific careers.",
+  "qualification": "A master's degree with minimum marks as per the NET notification.",
+  "courses": [
+   "UGC NET",
+   "CSIR NET (science subjects)",
+   "PhD"
+  ],
+  "entrance_exams": [
+   {
+    "name": "UGC NET",
+    "url": "https://ugcnet.nta.nic.in"
+   },
+   {
+    "name": "CSIR NET",
+    "url": "https://csirnet.nta.ac.in"
+   }
+  ],
+  "opportunities": [
+   "Assistant professor in colleges and universities",
+   "Research scientist in labs and institutes",
+   "Policy and think-tank research"
+  ],
+  "next_steps": [
+   "Read the NET notification and syllabus.",
+   "Talk to a professor about a PhD topic and funding."
+  ],
+  "official_links": [
+   {
+    "label": "UGC NET",
+    "url": "https://ugcnet.nta.nic.in"
+   },
+   {
+    "label": "CSIR NET",
+    "url": "https://csirnet.nta.ac.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "research",
+   "fellowship",
+   "net"
+  ]
+ },
+ {
+  "id": "private_job_prep",
+  "title": "Getting a private-sector job",
+  "type": "private_job",
+  "stages": [
+   "after_diploma",
+   "after_ug",
+   "after_pg"
+  ],
+  "streams": [],
+  "interests": [
+   "business",
+   "technology",
+   "finance"
+  ],
+  "skills": [
+   "communication",
+   "computers"
+  ],
+  "goals": [
+   "private_job",
+   "earn_early"
+  ],
+  "budget_level": "low",
+  "summary": "Private employers hire through campus placements, online job portals and referrals. Skills, projects and internships matter at least as much as marks.",
+  "qualification": "Depends on the role. Many entry roles need a degree or diploma plus relevant skills.",
+  "courses": [
+   "Internships and apprenticeships",
+   "Short certificate courses for your field",
+   "Soft skills: communication, Excel, teamwork"
+  ],
+  "entrance_exams": [],
+  "opportunities": [
+   "Entry-level roles in IT, finance, marketing, operations and many other fields",
+   "Growth through skills and experience"
+  ],
+  "next_steps": [
+   "Create a clear CV and an online profile.",
+   "Apply for internships while you study.",
+   "Use the National Career Service portal to find jobs and training."
+  ],
+  "official_links": [
+   {
+    "label": "National Career Service portal",
+    "url": "https://www.ncs.gov.in"
+   },
+   {
+    "label": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "private",
+   "job"
+  ]
+ },
+ {
+  "id": "skill_digital",
+  "title": "Digital skills (IT, data, web, design tools)",
+  "type": "skill",
+  "stages": [
+   "after_10th",
+   "after_12th",
+   "after_diploma",
+   "after_ug",
+   "after_pg"
+  ],
+  "streams": [],
+  "interests": [
+   "technology",
+   "creative"
+  ],
+  "skills": [
+   "computers",
+   "logic",
+   "creativity"
+  ],
+  "goals": [
+   "earn_early",
+   "private_job",
+   "business",
+   "not_sure"
+  ],
+  "budget_level": "low",
+  "summary": "Short courses that give job-ready skills such as programming, web design, data analysis and digital marketing. Many are free or low cost.",
+  "qualification": "No fixed qualification for most short courses. Basic computer use and English help.",
+  "courses": [
+   "Programming and web development",
+   "Data analysis and spreadsheets",
+   "Digital marketing",
+   "Graphic design tools"
+  ],
+  "entrance_exams": [],
+  "opportunities": [
+   "Entry-level IT and digital roles",
+   "Freelance work",
+   "Better chances in any job that uses computers"
+  ],
+  "next_steps": [
+   "Take a free course on SWAYAM or Skill India Digital.",
+   "Build 2-3 small projects and keep them online.",
+   "Add your certificates to your CV."
+  ],
+  "official_links": [
+   {
+    "label": "SWAYAM free courses",
+    "url": "https://swayam.gov.in"
+   },
+   {
+    "label": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in"
+   },
+   {
+    "label": "NPTEL",
+    "url": "https://nptel.ac.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "skill",
+   "digital",
+   "computer"
+  ]
+ },
+ {
+  "id": "skill_vocational",
+  "title": "Vocational skills and government skill programmes",
+  "type": "skill",
+  "stages": [
+   "after_10th",
+   "after_12th",
+   "after_diploma"
+  ],
+  "streams": [],
+  "interests": [
+   "technical_trades",
+   "hospitality",
+   "healthcare"
+  ],
+  "skills": [
+   "hands_on"
+  ],
+  "goals": [
+   "earn_early",
+   "business"
+  ],
+  "budget_level": "low",
+  "summary": "Short job-oriented courses in trades and services (electrician, retail, healthcare assistant, beauty and wellness, and more) offered through government skill programmes.",
+  "qualification": "Depends on the course; many accept 8th or 10th pass.",
+  "courses": [
+   "Courses on the Skill India Digital portal",
+   "Training with NSDC training partners",
+   "Apprenticeships"
+  ],
+  "entrance_exams": [],
+  "opportunities": [
+   "Wage jobs in trades and services",
+   "Self-employment",
+   "Pathway to a diploma or ITI later"
+  ],
+  "next_steps": [
+   "Find courses and training centres on Skill India Digital.",
+   "Ask whether the course gives a recognised certificate."
+  ],
+  "official_links": [
+   {
+    "label": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in"
+   },
+   {
+    "label": "NSDC",
+    "url": "https://www.nsdcindia.org"
+   },
+   {
+    "label": "Apprenticeship India",
+    "url": "https://www.apprenticeshipindia.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "skill",
+   "vocational"
+  ]
+ },
+ {
+  "id": "freelancing",
+  "title": "Freelancing (writing, design, video, coding, translation)",
+  "type": "freelancing",
+  "stages": [
+   "after_12th",
+   "after_diploma",
+   "after_ug",
+   "after_pg"
+  ],
+  "streams": [],
+  "interests": [
+   "creative",
+   "technology",
+   "media",
+   "business"
+  ],
+  "skills": [
+   "creativity",
+   "writing",
+   "computers"
+  ],
+  "goals": [
+   "business",
+   "earn_early"
+  ],
+  "budget_level": "low",
+  "summary": "Working independently for clients online or locally. It can start part-time and is open to anyone with a skill, though income is uncertain at first.",
+  "qualification": "No fixed qualification, but you need a real skill and a small portfolio.",
+  "courses": [
+   "Content writing and translation",
+   "Graphic and video design",
+   "Web and app development",
+   "Tutoring and online teaching"
+  ],
+  "entrance_exams": [],
+  "opportunities": [
+   "Project-based work from clients in India and abroad",
+   "Can grow into your own agency or business"
+  ],
+  "next_steps": [
+   "Pick one skill and build 3 sample projects.",
+   "Learn the basics of invoicing and income tax.",
+   "Keep a regular job or study while you start, until income is steady."
+  ],
+  "official_links": [
+   {
+    "label": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in"
+   },
+   {
+    "label": "SWAYAM free courses",
+    "url": "https://swayam.gov.in"
+   },
+   {
+    "label": "Income Tax Department",
+    "url": "https://www.incometax.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "skill",
+   "self-employment"
+  ]
+ },
+ {
+  "id": "entrepreneurship",
+  "title": "Starting your own business",
+  "type": "entrepreneurship",
+  "stages": [
+   "after_12th",
+   "after_diploma",
+   "after_ug",
+   "after_pg"
+  ],
+  "streams": [],
+  "interests": [
+   "business",
+   "agri_env",
+   "creative",
+   "technology"
+  ],
+  "skills": [
+   "leadership",
+   "communication"
+  ],
+  "goals": [
+   "business",
+   "earn_early"
+  ],
+  "budget_level": "low",
+  "summary": "Starting a small business, service or startup. Government schemes offer loans, subsidies and registration support for new entrepreneurs.",
+  "qualification": "No fixed qualification. Some schemes have minimum education or age rules.",
+  "courses": [
+   "Small shop or service business",
+   "Manufacturing or food processing unit",
+   "Tech or service startup",
+   "Agri-business"
+  ],
+  "entrance_exams": [],
+  "opportunities": [
+   "Self-employment and creating jobs for others",
+   "Access to government loan and subsidy schemes"
+  ],
+  "next_steps": [
+   "Test your idea on a small scale first.",
+   "Register your business (Udyam registration is free for small units).",
+   "Look at government schemes such as PMEGP, Mudra and Startup India."
+  ],
+  "official_links": [
+   {
+    "label": "Startup India",
+    "url": "https://www.startupindia.gov.in"
+   },
+   {
+    "label": "Udyam registration",
+    "url": "https://udyamregistration.gov.in"
+   },
+   {
+    "label": "PMEGP",
+    "url": "https://www.kviconline.gov.in/pmegpeportal"
+   },
+   {
+    "label": "Mudra loans",
+    "url": "https://www.mudra.org.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "entrepreneur",
+   "business",
+   "startup"
+  ],
+  "app_links": [
+   {
+    "label": "Government schemes for farmers and agri-business",
+    "section": "farmers"
+   }
+  ]
+ }
+]
