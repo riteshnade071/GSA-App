@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tamil Nadu Agrisnet / Uzhavan app (state farmer schemes portal)",
+    "sub_category": "other",
+    "state": "Tamil Nadu",
+    "amount": "Varies by scheme",
+    "description": "The Tamil Nadu Agriculture - Farmers Welfare Department's portal and Uzhavan app, where farmers register and apply for department schemes and see the beneficiaries list. Schemes listed on the portal include agroforestry (PM-RKVY), the Hill Farmers Development scheme, the Kuruvai special package for delta districts, the Mission for Aatmanirbharta in Pulses and several NADP programmes (paddy, pulses, maize). The state government changed in 2026; its first Agriculture Budget (6 Aug 2026) said existing schemes continue and added new missions (soil conservation, millets, pulses and oilseeds) whose application rules are still to be published. Scheme names and rules can change, so read the scheme page first.",
+    "benefits": "Subsidy, inputs or assistance under the scheme you choose, usually paid after verification by the agriculture officer.",
+    "eligibility_text": "Farmers of Tamil Nadu registered on the portal or app. Every scheme has its own conditions: some are only for selected villages (for example the all-village integrated programme), some for SC/ST or small and marginal farmers, some for delta or hill areas.",
+    "tags": [
+      "any_farmer"
+    ],
+    "required_documents": [
+      "Aadhaar card",
+      "Land record (patta / chitta / adangal)",
+      "Bank passbook",
+      "Caste certificate (for SC/ST components)",
+      "Other papers listed under the scheme you choose"
+    ],
+    "steps": [
+      "Open the Agrisnet portal (tnagrisnet.tn.gov.in) or install the Uzhavan app and register as a farmer.",
+      "Look through the list of schemes for your district and village and read the conditions of the one you want.",
+      "Apply online (or through your Assistant Agricultural Officer), and upload the documents the scheme asks for.",
+      "The agriculture officer verifies your land and details. Keep the application number and check the status on the portal or app."
+    ],
+    "official_url": "https://www.tnagrisnet.tn.gov.in",
+    "source_organization": "Agriculture - Farmers Welfare Department, Government of Tamil Nadu",
+    "checked_on": "2026-10-12"
+  }
+]

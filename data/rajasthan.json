@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Rajasthan Post-Matric Scholarship (SJE) — SC / ST",
+    "state": "Rajasthan",
+    "state_basis": "domicile",
+    "steps": "rajasthan",
+    "deadline": "2026-10-31",
+    "official_url": "https://sje.rajasthan.gov.in",
+    "source_organization": "Social Justice and Empowerment Department, Govt of Rajasthan",
+    "description": "For SC and ST students who are permanent residents of Rajasthan, in Class 11 up to postgraduate and professional courses. Family income up to ₹2.5 lakh. Your institute must be registered on the SJE portal. Amount depends on course level and hostel or home. The document list below may be shorter than the portal's.",
+    "benefits": "Maintenance allowance, compulsory fees, books and study-tour expenses; amount depends on course and hostel/day-scholar status (per scheme summaries — confirm on the portal).",
+    "amount": "Maintenance + fees + books (varies by course)",
+    "required_documents": [
+      "Rajasthan domicile proof (Jan Aadhaar / domicile certificate)",
+      "Caste certificate (SC/ST)",
+      "Income certificate",
+      "Previous year marksheet",
+      "Fee receipt",
+      "Aadhaar-linked bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "in": [
+          "sc",
+          "st"
+        ]
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    }
+  }
+]

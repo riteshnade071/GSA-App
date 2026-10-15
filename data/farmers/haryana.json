@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Meri Fasal Mera Byora — Haryana crop registration portal",
+    "sub_category": "other",
+    "state": "Haryana",
+    "amount": "Needed for other benefits",
+    "description": "Haryana's 'My Crop, My Record' portal. Farmers register their land and the crops they sow during the sowing season. Registration is needed for Bhavantar Bharpai Yojana compensation, and it is also used for MSP procurement and crop insurance. Late registration can cost you these benefits, and false entries are removed by the district administration.",
+    "benefits": "No money by itself. Registration lets you claim MSP procurement, Bhavantar Bharpai compensation and crop-insurance cover.",
+    "eligibility_text": "Farmers of Haryana: landowners, lessees and tenant farmers (tenants need a lease agreement). Registration must be done for the crops you actually sow, within the sowing period.",
+    "tags": [
+      "any_farmer",
+      "landowner",
+      "tenant"
+    ],
+    "required_documents": [
+      "Parivar Pehchan Patra (PPP) details",
+      "Aadhaar-linked mobile number",
+      "Proof of land ownership, or lease agreement for tenant farmers",
+      "Aadhaar-linked bank account"
+    ],
+    "steps": [
+      "Open the Meri Fasal Mera Byora portal and log in with your PPP details and mobile OTP.",
+      "Select your land and enter the crop you have sown, and the area, for the current season.",
+      "Submit. The Agriculture or Horticulture Department checks (and may physically verify) your entry.",
+      "Check on the portal that your crop shows as verified before the registration window closes."
+    ],
+    "official_url": "https://mfmb.haryana.gov.in",
+    "source_organization": "Agriculture and Farmers Welfare Department, Government of Haryana",
+    "checked_on": "2026-10-13"
+  },
+  {
+    "name": "Bhavantar Bharpai Yojana — Haryana price-difference compensation",
+    "sub_category": "financial",
+    "state": "Haryana",
+    "amount": "Varies by crop",
+    "description": "Haryana Horticulture Department scheme that protects vegetable and fruit growers from low market prices. If a registered farmer sells below the protected price within the notified period, the government pays the difference. The scheme has also been extended to potato and, with a per-acre relief, to bajra. You must register the crop on Meri Fasal Mera Byora during the sowing period, sell through a J-Form at the market committee, and the sales details are uploaded on the BBY e-portal.",
+    "benefits": "The gap between the protected price and your selling price (or the per-acre relief for notified crops), paid to your Aadhaar-linked bank account.",
+    "eligibility_text": "Landowners, lessees and tenant farmers in Haryana who registered the notified crop on Meri Fasal Mera Byora during the sowing period and sold it through the market committee with a J-Form.",
+    "tags": [
+      "any_farmer",
+      "landowner",
+      "tenant"
+    ],
+    "required_documents": [
+      "Registration proof from Meri Fasal Mera Byora",
+      "Land ownership proof, or lease agreement for tenants",
+      "J-Form of the sale from the market committee",
+      "Aadhaar-linked bank account"
+    ],
+    "steps": [
+      "Register your crop on Meri Fasal Mera Byora during the sowing period (free).",
+      "Wait for the Horticulture Department to verify your crop.",
+      "Sell your produce at the market through a J-Form. Each market committee office can upload the sale details on the BBY e-portal.",
+      "Check your claim status on the portal and make sure your bank account is Aadhaar-linked, because the money is paid by DBT."
+    ],
+    "official_url": "https://www.myscheme.gov.in/schemes/bvby",
+    "source_organization": "Department of Horticulture, Government of Haryana",
+    "checked_on": "2026-10-13"
+  }
+]
