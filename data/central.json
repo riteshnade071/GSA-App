@@ -1,0 +1,196 @@
+[
+  {
+    "state": null,
+    "steps": "nsp",
+    "official_url": "https://scholarships.gov.in",
+    "name": "Post-Matric Scholarship for Scheduled Castes (PMS-SC)",
+    "deadline": "2026-10-31",
+    "description": "Central scheme for SC students studying after Class 10. Income limit ₹2.5 lakh. No minimum marks for a fresh application.",
+    "benefits": "Compulsory fee reimbursement plus monthly maintenance allowance, paid by DBT to your bank account.",
+    "source_organization": "Ministry of Social Justice and Empowerment",
+    "required_documents": [
+      "Caste certificate",
+      "Income certificate (current financial year)",
+      "Aadhaar card (linked to bank account)",
+      "Bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "sc"
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    },
+    "amount": "Full fee support + monthly allowance"
+  },
+  {
+    "state": null,
+    "steps": "nsp",
+    "official_url": "https://scholarships.gov.in",
+    "name": "Post-Matric Scholarship for Scheduled Tribes (PMS-ST)",
+    "deadline": "2026-10-31",
+    "description": "Central scheme for ST students studying after Class 10. Income limit ₹2.5 lakh.",
+    "benefits": "Compulsory fee reimbursement plus monthly maintenance allowance, paid by DBT to your bank account.",
+    "source_organization": "Ministry of Tribal Affairs",
+    "required_documents": [
+      "Caste certificate",
+      "Income certificate (current financial year)",
+      "Aadhaar card (linked to bank account)",
+      "Bank passbook"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "st"
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    },
+    "amount": "Full fee support + monthly allowance"
+  },
+  {
+    "state": null,
+    "steps": "nsp",
+    "official_url": "https://scholarships.gov.in",
+    "name": "Post-Matric Scholarship for OBC, EBC and DNT Students (PM YASASVI)",
+    "aliases": [
+      "Post-Matric Scholarship for OBC (PMS-OBC)"
+    ],
+    "deadline": "2026-10-31",
+    "description": "Central PM YASASVI sub-scheme for OBC, EBC and DNT students in Class 11 and above (diploma, degree, PG, PhD). Family income up to ₹2.5 lakh. Apply on NSP; your state welfare department verifies it.",
+    "benefits": "Academic allowance of roughly ₹5,000–₹20,000 a year depending on course group, plus compulsory fee support (per scheme summaries — confirm on NSP).",
+    "source_organization": "Ministry of Social Justice and Empowerment",
+    "required_documents": [
+      "OBC / EBC / DNT caste certificate",
+      "Income certificate (current financial year)",
+      "Aadhaar card (linked to bank account)",
+      "Bank passbook",
+      "Previous year marksheet"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "obc"
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    },
+    "amount": "≈ ₹5,000–20,000 a year + fee support"
+  },
+  {
+    "state": null,
+    "steps": "nsp",
+    "official_url": "https://scholarships.gov.in",
+    "name": "PM YASASVI Top Class College Education for OBC, EBC and DNT Students",
+    "deadline": "2026-10-31",
+    "steps_name": "PM YASASVI Central Sector Scheme of Top Class Education in College for OBC, EBC and DNT Students",
+    "description": "Merit-based scheme for OBC/EBC/DNT students admitted to a notified Top Class institution (list on NSP). Full-time courses only. Family income up to ₹2.5 lakh. Your college must be on the list.",
+    "benefits": "Full tuition support up to about ₹2 lakh a year plus allowances (per NSP summaries — confirm the exact components on NSP).",
+    "source_organization": "Ministry of Social Justice and Empowerment",
+    "required_documents": [
+      "OBC / EBC / DNT caste certificate",
+      "Income certificate (current financial year)",
+      "Admission proof at a notified Top Class institution",
+      "Aadhaar card (linked to bank account)",
+      "Bank passbook",
+      "Class 12 marksheet"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "obc"
+      },
+      "family_income": {
+        "lte": 250000
+      }
+    },
+    "amount": "Up to ≈ ₹2 lakh a year"
+  },
+  {
+    "state": null,
+    "steps": "nsp",
+    "official_url": "https://scholarships.gov.in",
+    "name": "Central Sector Scheme of Scholarships for College and University Students (PM-USP CSSS)",
+    "deadline": null,
+    "steps_name": "Central Sector Scheme of Scholarships for College and University Students",
+    "description": "Merit-cum-means scheme of the Ministry of Education: above the 80th percentile of successful candidates in your Class 12 board stream, regular (not distance, not diploma) degree course, family income up to ₹4.5 lakh, no other scholarship or fee reimbursement. NOTE: NSP listings for 2026-27 show this scheme as open for RENEWAL only — fresh applicants must check NSP before applying.",
+    "benefits": "₹12,000 a year for graduation (first 3 years), ₹20,000 a year for post-graduation and for the 4th/5th year of professional courses.",
+    "source_organization": "Department of Higher Education, Ministry of Education",
+    "required_documents": [
+      "Class 12 marksheet (to prove the 80th percentile)",
+      "Income certificate",
+      "Aadhaar card (linked to bank account)",
+      "Bank passbook",
+      "Admission proof / fee receipt"
+    ],
+    "eligibility_rules": {
+      "family_income": {
+        "lte": 450000
+      }
+    },
+    "amount": "₹12,000 or ₹20,000 a year"
+  },
+  {
+    "state": null,
+    "steps": "nsp",
+    "official_url": "https://scholarships.gov.in",
+    "name": "Post-Matric Scholarship for Minorities (Central)",
+    "deadline": "2026-10-31",
+    "description": "Ministry of Minority Affairs scheme for Muslim, Christian, Sikh, Buddhist, Jain and Parsi students from Class 11 to PhD. At least 50% marks in the previous exam and family income up to ₹2 lakh. 30% of awards are for girls.",
+    "benefits": "Admission + tuition fee and maintenance allowance, subject to maximum ceilings set in the scheme norms.",
+    "source_organization": "Ministry of Minority Affairs",
+    "required_documents": [
+      "Aadhaar card",
+      "Income certificate (issued by competent State/UT authority)",
+      "Minority community certificate (self-declaration if 18+, parent/guardian certified if minor)",
+      "Previous year marksheet (at least 50% marks)",
+      "Fee receipt of current course year",
+      "Aadhaar-linked bank account details",
+      "Domicile certificate"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "minority"
+      },
+      "family_income": {
+        "lte": 200000
+      },
+      "marks_percent": {
+        "gte": 50
+      }
+    },
+    "amount": "Tuition fee + maintenance allowance (capped)"
+  },
+  {
+    "state": null,
+    "steps": "nsp",
+    "official_url": "https://scholarships.gov.in",
+    "name": "Merit-cum-Means Scholarship for Minorities (Central)",
+    "deadline": null,
+    "description": "Ministry of Minority Affairs scheme for minority students in professional and technical courses (UG and PG). At least 50% marks in the last qualifying exam and family income up to ₹2.5 lakh. 30% of awards are for girls. Check the exact 2026-27 last date on NSP.",
+    "benefits": "Admission + course fee and maintenance allowance, subject to ceilings in the official guidelines.",
+    "source_organization": "Ministry of Minority Affairs",
+    "required_documents": [
+      "Aadhaar card",
+      "Income certificate (issued by competent State/UT authority)",
+      "Minority community certificate (self-declaration if 18+, parent/guardian certified if minor)",
+      "Previous year marksheet (at least 50% marks)",
+      "Fee receipt of current course year",
+      "Aadhaar-linked bank account details",
+      "Domicile certificate",
+      "Admission proof in a professional/technical course"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "minority"
+      },
+      "family_income": {
+        "lte": 250000
+      },
+      "marks_percent": {
+        "gte": 50
+      }
+    },
+    "amount": "Course fee + maintenance allowance (capped)"
+  }
+]

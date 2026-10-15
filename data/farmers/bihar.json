@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Bihar DBT Agriculture Portal (Krishi Input Anudan and other Agriculture Department schemes)",
+    "sub_category": "other",
+    "state": "Bihar",
+    "amount": "Varies by scheme",
+    "description": "The Bihar Agriculture Department's DBT portal (dbtagriculture.bihar.gov.in). Farmers register once and then apply online for department schemes, including the Krishi Input Anudan (input subsidy for farmers in notified panchayats and blocks hit by floods, heavy rain or river-water rise) and crop-loss assistance after natural calamities. The subsidy is sent straight to the registered bank account. Which areas and rates apply is decided in each year's notification, so read the current guideline on the portal.",
+    "benefits": "Input subsidy or crop-loss assistance under the scheme you apply for, paid by DBT after verification.",
+    "eligibility_text": "Farmers of Bihar registered on the DBT portal. For Krishi Input Anudan the farmer must live in a notified panchayat of an identified block. Farmers who cultivate other people's land are checked as 'actual cultivators' by the Agriculture Coordinator and Kisan Salahkar.",
+    "tags": [
+      "any_farmer"
+    ],
+    "required_documents": [
+      "Aadhaar card and mobile number",
+      "Land record, or self-declaration for farmers on others' land",
+      "Bank account details",
+      "Details of two neighbouring farmers with signatures (as asked in DBT registration)",
+      "Other papers listed in the scheme guideline"
+    ],
+    "steps": [
+      "Open dbtagriculture.bihar.gov.in and register as a farmer (one-time registration, free).",
+      "After registration, log in and read the notices to see which schemes are open for your area.",
+      "Choose the scheme (for example Krishi Input Anudan) and fill the online form with land and crop details.",
+      "The Agriculture Coordinator checks your application, and accepted ones go to the Agriculture Officer for payment.",
+      "Keep your registration number and check the status on the portal; the money comes to your bank account by DBT."
+    ],
+    "official_url": "https://dbtagriculture.bihar.gov.in",
+    "source_organization": "Department of Agriculture, Government of Bihar",
+    "checked_on": "2026-10-13"
+  }
+]

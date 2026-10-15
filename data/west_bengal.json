@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Swami Vivekananda Merit-cum-Means Scholarship (SVMCM) — West Bengal",
+    "state": "West Bengal",
+    "state_basis": "both",
+    "steps": "svmcm_wb",
+    "deadline": null,
+    "official_url": "https://svmcm.wb.gov.in",
+    "source_organization": "Higher Education Department, Govt of West Bengal",
+    "amount": "₹1,000–8,000 a month (by course)",
+    "description": "For meritorious students who live in West Bengal and study in a West Bengal institution in regular mode (Class 11-12, UG, PG, professional, research). Family income up to ₹2.5 lakh. Minimum marks: 60% in the last exam for Higher Secondary and UG; 53% for PG (55% for engineering PG); 45% for Kanyashree K3 girls (no income limit). You must not take any other government scholarship. The 2026-27 fresh last date was not announced when this was checked; renewal was reported as 31 Dec 2026. The document list below may be shorter than the portal's.",
+    "benefits": "₹1,000–8,000 a month depending on the course (per scheme summaries — confirm on the portal).",
+    "required_documents": [
+      "Income certificate",
+      "Last qualifying exam marksheet",
+      "West Bengal domicile / residence proof",
+      "Aadhaar card",
+      "Bank passbook"
+    ],
+    "eligibility_rules": {
+      "family_income": {
+        "lte": 250000
+      }
+    }
+  }
+]

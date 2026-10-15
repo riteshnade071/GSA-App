@@ -1,0 +1,254 @@
+[
+  {
+    "name": "AICTE Pragati Scholarship for Girl Students",
+    "state": null,
+    "steps": "nsp",
+    "steps_name": "AICTE Pragati Scholarship Scheme for Girl Students",
+    "deadline": "2026-10-31",
+    "description": "AICTE scheme for girls in technical education. You must be admitted to the 1st year of an AICTE-approved technical degree or diploma, or to the 2nd year through lateral entry. Family income up to ₹8 lakh a year. A maximum of two girls per family can get it. Apply on NSP; your college and the State/UT technical-education directorate verify the form. NOTE: the 31 Oct 2026 last date is the NSP date reported by secondary sources and is marked 'tentative' by some; confirm on NSP.",
+    "benefits": "₹50,000 a year as a lump sum, paid by DBT to your bank account. Up to about 5,000 awards a year.",
+    "source_organization": "All India Council for Technical Education (AICTE), Ministry of Education",
+    "official_url": "https://scholarships.gov.in",
+    "amount": "₹50,000 a year",
+    "required_documents": [
+      "Admission proof / fee receipt of an AICTE-approved institute",
+      "Family income certificate (not above ₹8 lakh) from a revenue officer not below Tahsildar rank",
+      "Class 10/12 or diploma marksheet",
+      "Aadhaar-linked bank account in your name",
+      "Declaration that no other scholarship is taken"
+    ],
+    "eligibility_rules": {
+      "gender": {
+        "eq": "female"
+      },
+      "family_income": {
+        "lte": 800000
+      },
+      "education_level": {
+        "in": [
+          "diploma",
+          "bachelors"
+        ]
+      }
+    }
+  },
+  {
+    "name": "AICTE Saksham Scholarship for Specially-Abled Students",
+    "state": null,
+    "steps": "nsp",
+    "steps_name": "AICTE Saksham Scholarship Scheme for Specially Abled Students",
+    "deadline": "2026-10-31",
+    "description": "AICTE scheme for students with at least 40% disability in the 1st year of an AICTE-approved technical degree or diploma (or 2nd year by lateral entry). Family income up to ₹8 lakh a year. Apply on NSP. NOTE: sources disagree on seats (older AICTE text says 1,000 a year; 2026-27 summaries say no fixed quota). The 31 Oct 2026 date comes from secondary sources; confirm on NSP.",
+    "benefits": "₹50,000 a year as a lump sum by DBT. The amount is meant for fees, books and other study costs; there is no separate hostel or medical amount.",
+    "source_organization": "All India Council for Technical Education (AICTE), Ministry of Education",
+    "official_url": "https://scholarships.gov.in",
+    "amount": "₹50,000 a year",
+    "required_documents": [
+      "Disability certificate (at least 40%) from a competent authority",
+      "Family income certificate (not above ₹8 lakh)",
+      "Admission proof / fee receipt of an AICTE-approved institute",
+      "Previous marksheet",
+      "Aadhaar-linked bank account in your name"
+    ],
+    "eligibility_rules": {
+      "is_disabled": {
+        "is_true": true
+      },
+      "family_income": {
+        "lte": 800000
+      },
+      "education_level": {
+        "in": [
+          "diploma",
+          "bachelors"
+        ]
+      }
+    }
+  },
+  {
+    "name": "National Means-cum-Merit Scholarship (NMMSS) — Class 9 to 12",
+    "state": null,
+    "steps": "nsp",
+    "steps_name": "National Means-cum-Merit Scholarship",
+    "deadline": "2026-10-31",
+    "description": "Ministry of Education scheme to stop drop-outs after Class 8. One lakh fresh scholarships a year for Class 9 students who clear the state/UT selection test (taken in Class 8). You need at least 55% in Class 7 to sit the test (5-point relaxation for SC/ST), and parental income up to ₹3.5 lakh a year. Only for students of state-government, government-aided and local-body schools. The scholarship continues to Class 12 through yearly renewal. For 2026-27 the NSP last date was extended to 31 Oct 2026 (Ministry of Education, via All India Radio, 1 Oct 2026).",
+    "benefits": "₹12,000 a year (₹1,000 a month) from Class 9 to Class 12, if you keep meeting the renewal conditions.",
+    "source_organization": "Department of School Education and Literacy, Ministry of Education",
+    "official_url": "https://scholarships.gov.in",
+    "amount": "₹12,000 a year",
+    "required_documents": [
+      "Parental income certificate (not above ₹3.5 lakh)",
+      "Class 7 / Class 8 marksheet",
+      "NMMS selection-test result / certificate",
+      "School bonafide / admission proof",
+      "Aadhaar and bank passbook in the student's name",
+      "Caste certificate (SC/ST relaxation)"
+    ],
+    "eligibility_rules": {
+      "family_income": {
+        "lte": 350000
+      },
+      "education_level": {
+        "in": [
+          "10th",
+          "12th"
+        ]
+      },
+      "marks_percent": {
+        "gte": 50
+      }
+    }
+  },
+  {
+    "name": "PM-Vidyalaxmi — Collateral-free Education Loan with Interest Subvention",
+    "category": "govt_benefit",
+    "state": null,
+    "steps": "vidyalaxmi",
+    "deadline": null,
+    "description": "This is an education LOAN scheme, not a grant. Any student admitted to a notified Quality Higher Education Institution (about 860 top institutions) can get a collateral-free, guarantor-free loan from participating banks through one common online form. Students with family income up to ₹8 lakh who get no other scholarship or interest subsidy also get 3% interest subvention on loans up to ₹10 lakh during the moratorium (for one lakh students a year). Under PM-USP CSIS, family income up to ₹4.5 lakh gets full interest subvention. For loans up to ₹7.5 lakh the government gives a 75% credit guarantee to the bank, whatever the family income. Check that your institution is on the notified list.",
+    "benefits": "Loan for full tuition fee and course expenses without collateral or guarantor; 3% interest subvention (income up to ₹8 lakh) or full subvention during moratorium (income up to ₹4.5 lakh, CSIS); 75% credit guarantee for loans up to ₹7.5 lakh.",
+    "source_organization": "Department of Higher Education, Ministry of Education",
+    "official_url": "https://pmvidyalaxmi.co.in",
+    "amount": "Loan + 3% interest subvention",
+    "required_documents": [
+      "Admission / offer letter and fee structure of a notified institution",
+      "Marksheets (Class 10, 12 and qualifying exam)",
+      "Aadhaar and PAN of student and co-applicant",
+      "Co-applicant income proof and address proof",
+      "Income certificate (for interest subvention)",
+      "Caste / disability certificate if claimed"
+    ],
+    "eligibility_rules": {
+      "education_level": {
+        "in": [
+          "12th",
+          "bachelors",
+          "masters"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Top Class Education Scheme for SC Students",
+    "state": null,
+    "steps": "nsp",
+    "steps_name": "Central Sector Scholarship of Top Class Education for SC Students",
+    "deadline": "2026-10-31",
+    "description": "Ministry of Social Justice scheme for SC students admitted to a full-time course beyond Class 12 in a notified (top-class) institution. Family income up to ₹8 lakh from all sources; no more than 2 siblings per family. Fresh awards go only to first-year students, ranked by merit within the slots given to your institute; the award continues until the course ends. Students who did Class 10 in a government or aided school (except KVS) qualify automatically. NSP 2026-27: portal open from 1 Jun 2026, last date 31 Oct 2026, institute verification 15 Nov, ministry verification 30 Nov.",
+    "benefits": "Full tuition fee and non-refundable charges (up to ₹2 lakh a year in private institutions), plus an academic allowance (₹86,000 in the first year per the NSP FAQ; lower in later years). Confirm current amounts on NSP.",
+    "source_organization": "Department of Social Justice and Empowerment, Ministry of Social Justice and Empowerment",
+    "official_url": "https://scholarships.gov.in",
+    "amount": "Full tuition (to ₹2 lakh) + allowance",
+    "required_documents": [
+      "Valid SC certificate",
+      "Income certificate (family income up to ₹8 lakh)",
+      "Admission proof in a notified institution",
+      "Fee structure / fee receipt",
+      "Aadhaar and Aadhaar-linked bank account",
+      "Class 10 school certificate (for automatic qualification)"
+    ],
+    "eligibility_rules": {
+      "category": {
+        "eq": "sc"
+      },
+      "family_income": {
+        "lte": 800000
+      }
+    }
+  },
+  {
+    "name": "UGC Post Graduate Indira Gandhi Scholarship for Single Girl Child",
+    "state": null,
+    "steps": "nsp",
+    "steps_name": "Post Graduate Indira Gandhi Scholarship for Single Girl Child",
+    "deadline": null,
+    "description": "UGC scheme for a single girl child (only child, or twin/fraternal daughters) admitted to the 1st year of a regular, full-time Master's degree in a recognised university or PG college. Age up to 30 at admission. There is no income limit. If the family has a son and a daughter, the girl is not eligible. Distance-mode courses are not covered. About 3,000 awards. Apply on NSP when UGC announces the window; an affidavit about single-girl-child status is needed.",
+    "benefits": "₹36,200 a year for two years. You can also hold other scholarships.",
+    "source_organization": "University Grants Commission (UGC), Ministry of Education",
+    "official_url": "https://scholarships.gov.in",
+    "amount": "₹36,200 a year (2 years)",
+    "required_documents": [
+      "Affidavit of single-girl-child status (UGC format)",
+      "Admission proof / joining report for the PG course",
+      "Graduation marksheet and proof of age",
+      "Aadhaar and bank account in your name"
+    ],
+    "eligibility_rules": {
+      "gender": {
+        "eq": "female"
+      },
+      "education_level": {
+        "in": [
+          "bachelors",
+          "masters"
+        ]
+      },
+      "age": {
+        "lte": 30
+      }
+    }
+  },
+  {
+    "name": "UGC Post Graduate Merit Scholarship for University Rank Holders",
+    "state": null,
+    "steps": "nsp",
+    "steps_name": "Post Graduate Scholarship for University Rank Holders",
+    "deadline": null,
+    "description": "UGC scheme for the first and second rank holders of an undergraduate university exam who take admission in a regular PG course (first PG degree only). Age up to 30 at admission. The rank counts only if enough students sat the exam (100 in affiliated universities, 25 in deemed/private universities and autonomous colleges). No income limit. About 3,000 awards. Apply when UGC announces the window (on NSP in recent years; check the UGC notice, as the portal has changed over time).",
+    "benefits": "₹3,100 a month for two years (the full PG course).",
+    "source_organization": "University Grants Commission (UGC), Ministry of Education",
+    "official_url": "https://scholarships.gov.in",
+    "amount": "₹3,100 a month (2 years)",
+    "required_documents": [
+      "Provisional rank certificate from the university / autonomous college",
+      "Undergraduate degree / marksheets",
+      "Admission proof in the PG course",
+      "Proof of age",
+      "Aadhaar and bank account in your name"
+    ],
+    "eligibility_rules": {
+      "education_level": {
+        "in": [
+          "bachelors",
+          "masters"
+        ]
+      },
+      "age": {
+        "lte": 30
+      }
+    }
+  },
+  {
+    "name": "INSPIRE Scholarship for Higher Education (SHE) — DST",
+    "state": null,
+    "steps": "inspire",
+    "deadline": null,
+    "description": "Department of Science and Technology scheme to keep top students in the natural and basic sciences. For students aged 17-22 who have just passed Class 12 and join B.Sc./B.S./Integrated M.Sc./M.S. in natural or basic sciences. You must be in the top 1% of your Class 12 board, or have a top rank in JEE/NEET (see the DST notice for the exact cut-offs each year). A gap year after Class 12 is not allowed. About 12,000 awards a year, for up to 5 years with yearly renewal on marks. No income limit. The application window is announced by DST each year; no 2026-27 date was confirmed.",
+    "benefits": "₹80,000 a year: ₹60,000 scholarship (₹5,000 a month) plus ₹20,000 for a summer research project.",
+    "source_organization": "Department of Science and Technology (DST), Government of India",
+    "official_url": "https://online-inspire.gov.in",
+    "amount": "₹80,000 a year",
+    "required_documents": [
+      "Class 12 marksheet (proof of top 1% / board percentile)",
+      "Class 10 marksheet",
+      "JEE / NEET rank card (if using the rank route)",
+      "Admission proof in a natural-science degree course",
+      "Aadhaar and bank account in your name"
+    ],
+    "eligibility_rules": {
+      "age": {
+        "gte": 17,
+        "lte": 22
+      },
+      "education_level": {
+        "in": [
+          "12th",
+          "bachelors"
+        ]
+      },
+      "course_stream": {
+        "eq": "science"
+      }
+    }
+  }
+]
