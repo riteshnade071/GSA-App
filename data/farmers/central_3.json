@@ -1,0 +1,31 @@
+[
+ {
+  "name": "e-NAM (National Agriculture Market) — sell your crop online across mandis",
+  "sub_category": "other",
+  "state": null,
+  "amount": "No fee to register",
+  "description": "Government online trading platform that links mandis across India. A registered farmer can sell produce to buyers beyond the local market and is paid online into the bank account.",
+  "benefits": "Transparent bidding for better price discovery, access to more markets and buyers, real-time information on prices and arrivals in nearby mandis, and quick payment straight into your bank account (RTGS, NEFT or UPI).",
+  "eligibility_text": "Farmers who sell their produce can register as sellers on e-NAM, and farmer producer organisations (FPOs/FPCs) can register too. Registration is free. Your local mandi (APMC) approves the registration.",
+  "tags": [
+   "any_farmer",
+   "fpo_coop"
+  ],
+  "required_documents": [
+   "Any government ID proof",
+   "Bank passbook or cheque leaf",
+   "Name, address, date of birth, mobile number and bank details",
+   "Email ID (your login details are sent there)"
+  ],
+  "steps": [
+   "Open enam.gov.in (or install the e-NAM mobile app), choose Registration Type 'Farmer' and select your nearest APMC (mandi).",
+   "Fill in your details and upload your ID proof and bank passbook or cheque leaf. You can also register at the mandi gate.",
+   "Log in to the dashboard and click the message 'Click here to register with APMC' to complete your details.",
+   "After the APMC approves, you get your permanent Farmer Login ID and password on your registered email.",
+   "Take your produce to an e-NAM mandi with your login ID. Payment comes online into your bank account."
+  ],
+  "official_url": "https://enam.gov.in",
+  "source_organization": "Department of Agriculture & Farmers Welfare, Government of India (e-NAM)",
+  "checked_on": "2026-10-17"
+ }
+]

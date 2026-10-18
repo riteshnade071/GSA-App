@@ -1,0 +1,553 @@
+[
+ {
+  "id": "solar_ev_green_skills",
+  "title": "Solar technician and electric-vehicle (EV) mechanic training",
+  "type": "skill",
+  "stages": [
+   "after_10th",
+   "after_12th",
+   "after_diploma"
+  ],
+  "streams": [],
+  "interests": [
+   "technical_trades",
+   "agri_env"
+  ],
+  "skills": [
+   "hands_on"
+  ],
+  "goals": [
+   "earn_early",
+   "private_job",
+   "business"
+  ],
+  "budget_level": "low",
+  "summary": "Short skill courses (a few weeks to a few months) for installing and repairing solar panels and for servicing electric two- and three-wheelers. Demand is growing as solar and EVs spread.",
+  "qualification": "Usually 10th pass or ITI. Check each course.",
+  "courses": [
+   "Solar panel installer / technician",
+   "EV mechanic and battery technician",
+   "Electrician with solar skills"
+  ],
+  "entrance_exams": [
+   {
+    "name": "Skill India Digital courses",
+    "url": "https://www.skillindiadigital.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Jobs with solar installers and EV service centres",
+   "Own repair or installation shop",
+   "Better pay as an ITI electrician with extra skills"
+  ],
+  "next_steps": [
+   "Choose a course from a recognised or government-backed provider, not from an unknown advertisement.",
+   "Check the duration, certificate type and total fees before you pay.",
+   "Practise the skill every day and build a small portfolio of work you can show."
+  ],
+  "official_links": [
+   {
+    "label": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in"
+   },
+   {
+    "label": "NSDC",
+    "url": "https://nsdcindia.org"
+   }
+  ],
+  "scholarship_keywords": [
+   "skill",
+   "solar",
+   "ev"
+  ]
+ },
+ {
+  "id": "drone_pilot_technician",
+  "title": "Drone pilot and drone technician",
+  "type": "certificate",
+  "stages": [
+   "after_10th",
+   "after_12th",
+   "after_diploma"
+  ],
+  "streams": [],
+  "interests": [
+   "technology",
+   "agri_env"
+  ],
+  "skills": [
+   "hands_on",
+   "computers"
+  ],
+  "goals": [
+   "earn_early",
+   "private_job",
+   "business"
+  ],
+  "budget_level": "medium",
+  "summary": "Training to fly small drones legally and to maintain them. Drones are used in farming (spraying), surveying, photography and delivery. Training is given by approved remote pilot training organisations.",
+  "qualification": "Usually 10th pass and age 18 or more. Check the current DGCA rules and the training centre.",
+  "courses": [
+   "Remote pilot certificate (small drones)",
+   "Drone assembly and repair",
+   "Agri-drone spraying services"
+  ],
+  "entrance_exams": [
+   {
+    "name": "DGCA approved remote pilot training organisations",
+    "url": "https://www.dgca.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Drone pilot for farming, survey and media companies",
+   "Own drone service business",
+   "Drone repair technician"
+  ],
+  "next_steps": [
+   "Choose a course from a recognised or government-backed provider, not from an unknown advertisement.",
+   "Check the duration, certificate type and total fees before you pay.",
+   "Practise the skill every day and build a small portfolio of work you can show."
+  ],
+  "official_links": [
+   {
+    "label": "DGCA",
+    "url": "https://www.dgca.gov.in"
+   },
+   {
+    "label": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "drone",
+   "agriculture",
+   "skill"
+  ]
+ },
+ {
+  "id": "agri_business_startup",
+  "title": "Start a farm-based business (dairy, poultry, mushroom, beekeeping, nursery)",
+  "type": "entrepreneurship",
+  "stages": [
+   "after_10th",
+   "after_12th",
+   "after_diploma",
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "agri_env",
+   "business"
+  ],
+  "skills": [
+   "hands_on",
+   "leadership"
+  ],
+  "goals": [
+   "business",
+   "earn_early"
+  ],
+  "budget_level": "low",
+  "summary": "Small businesses built on farming skills and local demand. You can learn the work at a Krishi Vigyan Kendra (KVK) and use bank loans and government support schemes to start.",
+  "qualification": "Open to anyone. Training courses at KVKs and agriculture universities are open to farmers and rural youth.",
+  "courses": [
+   "Dairy and animal husbandry",
+   "Poultry and goat farming",
+   "Mushroom and vermicompost",
+   "Beekeeping and honey",
+   "Plant nursery and food processing"
+  ],
+  "entrance_exams": [
+   {
+    "name": "ICAR Krishi Vigyan Kendra (KVK) training",
+    "url": "https://icar.org.in"
+   }
+  ],
+  "opportunities": [
+   "Regular income from your own unit",
+   "Loans and subsidies through banks and government schemes",
+   "Supply to local markets, dairies and food companies"
+  ],
+  "next_steps": [
+   "Pick one activity and learn it first: join a short training at your nearest Krishi Vigyan Kendra (KVK).",
+   "Make a simple plan: cost, space, market and daily work. Visit someone already running the same business.",
+   "Look at loans and subsidy schemes for farmers on this site and ask your bank about them, and register your business on the Udyam portal."
+  ],
+  "official_links": [
+   {
+    "label": "ICAR",
+    "url": "https://icar.org.in"
+   },
+   {
+    "label": "NABARD",
+    "url": "https://www.nabard.org"
+   },
+   {
+    "label": "Udyam registration",
+    "url": "https://udyamregistration.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "agriculture",
+   "business",
+   "dairy"
+  ]
+ },
+ {
+  "id": "nielit_computer_courses",
+  "title": "Government computer courses (NIELIT CCC, O Level, ADCA)",
+  "type": "certificate",
+  "stages": [
+   "after_10th",
+   "after_12th",
+   "after_diploma",
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "technology",
+   "govt_service"
+  ],
+  "skills": [
+   "computers"
+  ],
+  "goals": [
+   "govt_job",
+   "private_job",
+   "earn_early"
+  ],
+  "budget_level": "low",
+  "summary": "NIELIT is a government institute that offers computer courses recognised for many jobs. CCC is a basic computer course often asked for in government jobs.",
+  "qualification": "Open to all for CCC. Other levels may need 10th or 12th. Check each course.",
+  "courses": [
+   "CCC (Course on Computer Concepts)",
+   "O Level and A Level",
+   "Basic IT and office skills"
+  ],
+  "entrance_exams": [
+   {
+    "name": "NIELIT courses and exams",
+    "url": "https://www.nielit.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Computer skill certificate for government and private office jobs",
+   "Data entry and office assistant roles",
+   "Base for BCA or IT diplomas"
+  ],
+  "next_steps": [
+   "Choose a course from a recognised or government-backed provider, not from an unknown advertisement.",
+   "Check the duration, certificate type and total fees before you pay.",
+   "Practise the skill every day and build a small portfolio of work you can show."
+  ],
+  "official_links": [
+   {
+    "label": "NIELIT",
+    "url": "https://www.nielit.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "computer",
+   "certificate"
+  ]
+ },
+ {
+  "id": "beauty_wellness_careers",
+  "title": "Beauty, wellness and fitness careers",
+  "type": "certificate",
+  "stages": [
+   "after_10th",
+   "after_12th"
+  ],
+  "streams": [],
+  "interests": [
+   "creative",
+   "hospitality",
+   "business"
+  ],
+  "skills": [
+   "creativity",
+   "communication"
+  ],
+  "goals": [
+   "earn_early",
+   "business",
+   "private_job"
+  ],
+  "budget_level": "low",
+  "summary": "Short courses for hair and beauty work, spa and wellness, and fitness training. Many people start with a job and later open their own salon or studio.",
+  "qualification": "Usually 10th pass. Check each course.",
+  "courses": [
+   "Beauty and hair care (skill programmes)",
+   "Spa and wellness therapist",
+   "Fitness trainer and yoga instructor"
+  ],
+  "entrance_exams": [
+   {
+    "name": "Skill India Digital courses",
+    "url": "https://www.skillindiadigital.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Salon, spa and gym jobs",
+   "Own salon or studio",
+   "Home-based services"
+  ],
+  "next_steps": [
+   "Choose a course from a recognised or government-backed provider, not from an unknown advertisement.",
+   "Check the duration, certificate type and total fees before you pay.",
+   "Practise the skill every day and build a small portfolio of work you can show."
+  ],
+  "official_links": [
+   {
+    "label": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in"
+   },
+   {
+    "label": "NSDC",
+    "url": "https://nsdcindia.org"
+   }
+  ],
+  "scholarship_keywords": [
+   "beauty",
+   "wellness",
+   "skill"
+  ]
+ },
+ {
+  "id": "logistics_driving_jobs",
+  "title": "Driving, logistics and warehouse jobs",
+  "type": "skill",
+  "stages": [
+   "after_10th",
+   "after_12th"
+  ],
+  "streams": [],
+  "interests": [
+   "technical_trades",
+   "business"
+  ],
+  "skills": [
+   "hands_on"
+  ],
+  "goals": [
+   "earn_early",
+   "private_job",
+   "business"
+  ],
+  "budget_level": "low",
+  "summary": "Jobs in transport, delivery and warehouses. A valid driving licence and short training from approved driving or logistics training centres help you get hired.",
+  "qualification": "Usually 10th pass or less for helper roles; a licence needs the minimum age set by the transport rules.",
+  "courses": [
+   "Commercial driver (with the right licence)",
+   "Warehouse and inventory assistant",
+   "Forklift and loading operator",
+   "Delivery and courier work"
+  ],
+  "entrance_exams": [
+   {
+    "name": "Driving licence rules (Parivahan)",
+    "url": "https://parivahan.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Steady jobs with transport and e-commerce companies",
+   "Own vehicle or small transport business",
+   "Growth to supervisor roles"
+  ],
+  "next_steps": [
+   "Choose a course from a recognised or government-backed provider, not from an unknown advertisement.",
+   "Check the duration, certificate type and total fees before you pay.",
+   "Practise the skill every day and build a small portfolio of work you can show."
+  ],
+  "official_links": [
+   {
+    "label": "Parivahan (driving licence)",
+    "url": "https://parivahan.gov.in"
+   },
+   {
+    "label": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "driving",
+   "logistics"
+  ]
+ },
+ {
+  "id": "anganwadi_asha_health_workers",
+  "title": "Anganwadi, ASHA and community health worker jobs",
+  "type": "govt_job",
+  "stages": [
+   "after_10th",
+   "after_12th"
+  ],
+  "streams": [],
+  "interests": [
+   "healthcare",
+   "govt_service",
+   "teaching"
+  ],
+  "skills": [
+   "communication"
+  ],
+  "goals": [
+   "govt_job",
+   "earn_early"
+  ],
+  "budget_level": "low",
+  "summary": "Local government posts for women who work with mothers, children and families in villages and towns. Vacancies are announced by the district or state office, usually for your own area.",
+  "qualification": "Usually 10th or 12th pass and local residence. The notice lists the exact rules.",
+  "courses": [
+   "Anganwadi worker and helper",
+   "ASHA worker",
+   "Auxiliary nurse midwife (after the diploma course)"
+  ],
+  "entrance_exams": [
+   {
+    "name": "District and state notices (Women and Child Development / Health)",
+    "url": null
+   }
+  ],
+  "opportunities": [
+   "Stable local government work",
+   "Honorarium and benefits as per current rules",
+   "Path to nursing and health roles"
+  ],
+  "next_steps": [
+   "Read the latest official notification: eligibility, age limit, selection steps and dates.",
+   "Start preparing early with the official syllabus and previous question papers.",
+   "Keep documents ready (marksheets, category and domicile certificates) and apply only on the official website."
+  ],
+  "official_links": [
+   {
+    "label": "Ministry of Women and Child Development",
+    "url": "https://wcd.gov.in"
+   },
+   {
+    "label": "National Health Mission",
+    "url": "https://nhm.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "anganwadi",
+   "health",
+   "women"
+  ]
+ },
+ {
+  "id": "village_revenue_jobs",
+  "title": "Village and revenue jobs (Talathi, Patwari, Gram Sevak)",
+  "type": "govt_job",
+  "stages": [
+   "after_12th",
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "govt_service"
+  ],
+  "skills": [
+   "logic",
+   "writing"
+  ],
+  "goals": [
+   "govt_job"
+  ],
+  "budget_level": "low",
+  "summary": "State government posts that handle land records, village development and local administration. Each state holds its own recruitment, so the name and rules differ.",
+  "qualification": "Usually 12th pass or graduation, depending on the state and post. Read the state notice.",
+  "courses": [
+   "Talathi / Patwari / Village Revenue Officer",
+   "Gram Sevak / Village Development Officer",
+   "Clerk and assistant posts in district offices"
+  ],
+  "entrance_exams": [
+   {
+    "name": "Your state public service commission or recruitment board",
+    "url": null
+   }
+  ],
+  "opportunities": [
+   "Permanent state government job near your home",
+   "Promotion through departmental exams"
+  ],
+  "next_steps": [
+   "Read the latest official notification: eligibility, age limit, selection steps and dates.",
+   "Start preparing early with the official syllabus and previous question papers.",
+   "Keep documents ready (marksheets, category and domicile certificates) and apply only on the official website."
+  ],
+  "official_links": [
+   {
+    "label": "National Career Service",
+    "url": "https://www.ncs.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "state",
+   "village",
+   "govt"
+  ]
+ },
+ {
+  "id": "pm_vishwakarma_artisan",
+  "title": "Traditional artisan skills and support (PM Vishwakarma)",
+  "type": "skill",
+  "stages": [
+   "after_10th",
+   "after_12th",
+   "after_diploma",
+   "after_ug"
+  ],
+  "streams": [],
+  "interests": [
+   "technical_trades",
+   "business",
+   "creative"
+  ],
+  "skills": [
+   "hands_on",
+   "creativity"
+  ],
+  "goals": [
+   "business",
+   "earn_early"
+  ],
+  "budget_level": "low",
+  "summary": "A central scheme for people who work with their hands in traditional trades, such as carpenters, blacksmiths, potters, tailors, cobblers and barbers. It offers recognition, skill training, tools support and low-interest loans, as per the current rules.",
+  "qualification": "People doing a listed traditional trade with their hands. The official site lists the trades and the age and other conditions.",
+  "courses": [
+   "Skill training for the listed trades",
+   "Toolkit support",
+   "Loans without collateral at low interest, as per the scheme"
+  ],
+  "entrance_exams": [
+   {
+    "name": "PM Vishwakarma portal",
+    "url": "https://pmvishwakarma.gov.in"
+   }
+  ],
+  "opportunities": [
+   "Better income from your own trade",
+   "Training and a certificate",
+   "Easier access to credit for your workshop"
+  ],
+  "next_steps": [
+   "Open the official PM Vishwakarma portal and read the list of trades and the conditions.",
+   "Register with your Aadhaar and mobile number, usually through a Common Service Centre, and keep your trade details ready.",
+   "Follow the portal messages for verification, training and loan steps."
+  ],
+  "official_links": [
+   {
+    "label": "PM Vishwakarma",
+    "url": "https://pmvishwakarma.gov.in"
+   }
+  ],
+  "scholarship_keywords": [
+   "artisan",
+   "skill",
+   "loan"
+  ]
+ }
+]

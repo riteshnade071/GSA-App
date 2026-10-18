@@ -1,0 +1,25 @@
+[
+  {
+    "name": "District Merit Scholarship (Kerala, Plus One and Plus Two)",
+    "state": "Kerala",
+    "steps": "dce_kerala",
+    "deadline": null,
+    "description": "Merit award of the Directorate of Collegiate Education, Kerala, for students who got A+ in all subjects in SSLC and now study in a government or aided higher-secondary school in Kerala (Plus One and Plus Two). No family income limit. Apply online on the DCE scholarship portal. The yearly last date is announced by DCE; secondary sources mention 30 Nov 2026, which is NOT confirmed. Helpline 9446096580.",
+    "benefits": "₹1,250 a year during Plus One and Plus Two.",
+    "source_organization": "Directorate of Collegiate Education (DCE), Government of Kerala",
+    "official_url": "https://dcescholarship.kerala.gov.in",
+    "amount": "₹1,250 a year",
+    "required_documents": [
+      "SSLC marksheet showing A+ in all subjects",
+      "Kerala native / domicile proof",
+      "Higher-secondary school enrolment details",
+      "Bank account details"
+    ],
+    "eligibility_rules": {
+      "education_level": {
+        "eq": "12th"
+      }
+    },
+    "state_basis": "domicile"
+  }
+]
