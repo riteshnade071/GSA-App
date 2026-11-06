@@ -1,0 +1,72 @@
+name: Build Sakura Android
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build-debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
+      - name: Android SDK
+        run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null || true
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0"
+      - name: Build debug APK
+        run: gradle assembleDebug --no-daemon --stacktrace
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sakura-debug-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
+
+  build-signed-release:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_SIGNING_CONFIGURED: ${{ secrets.SAKURA_RELEASE_KEYSTORE_BASE64 != '' && secrets.SAKURA_RELEASE_STORE_PASSWORD != '' && secrets.SAKURA_RELEASE_KEY_ALIAS != '' && secrets.SAKURA_RELEASE_KEY_PASSWORD != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
+      - name: Android SDK
+        run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null || true
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0"
+      - name: Explain unsigned release is intentionally skipped until private key is configured
+        if: ${{ env.RELEASE_SIGNING_CONFIGURED != 'true' }}
+        run: echo "Configure all SAKURA_RELEASE_* GitHub secrets before producing a commercial signed AAB."
+      - name: Restore private release keystore
+        if: ${{ env.RELEASE_SIGNING_CONFIGURED == 'true' }}
+        env:
+          KEYSTORE_B64: ${{ secrets.SAKURA_RELEASE_KEYSTORE_BASE64 }}
+        run: |
+          echo "$KEYSTORE_B64" | base64 --decode > "$RUNNER_TEMP/sakura-release.jks"
+      - name: Build signed release bundle
+        if: ${{ env.RELEASE_SIGNING_CONFIGURED == 'true' }}
+        env:
+          STORE_PASSWORD: ${{ secrets.SAKURA_RELEASE_STORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.SAKURA_RELEASE_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.SAKURA_RELEASE_KEY_PASSWORD }}
+        run: |
+          gradle bundleRelease --no-daemon --stacktrace \
+            -PSAKURA_RELEASE_STORE_FILE="$RUNNER_TEMP/sakura-release.jks" \
+            -PSAKURA_RELEASE_STORE_PASSWORD="$STORE_PASSWORD" \
+            -PSAKURA_RELEASE_KEY_ALIAS="$KEY_ALIAS" \
+            -PSAKURA_RELEASE_KEY_PASSWORD="$KEY_PASSWORD"
+      - uses: actions/upload-artifact@v4
+        if: ${{ env.RELEASE_SIGNING_CONFIGURED == 'true' }}
+        with:
+          name: sakura-signed-release-aab
+          path: app/build/outputs/bundle/release/app-release.aab
